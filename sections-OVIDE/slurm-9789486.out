@@ -1,0 +1,625 @@
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/config.py:168: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  data = yaml.load(f.read()) or {}
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.30.5.217:34058'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.30.5.217:46189'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.30.5.217:38246'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.30.5.217:44288'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.30.5.217:42685'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.30.5.217:36868'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.30.5.217:38348'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.30.5.217:41553'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.30.5.217:46287'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.30.5.217:39502'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.30.5.217:34141'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.30.5.217:43716'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.30.5.217:42024'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.30.5.217:34748'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.30.5.217:46196'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.30.5.217:33541'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.30.5.217:46163'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.30.5.217:41791'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.30.5.217:35499'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.30.5.217:45976'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.30.5.217:37425'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.30.5.217:45957'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.30.5.217:36893'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.30.5.217:35125'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.30.5.217:44414'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.30.5.217:33596'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.30.5.217:39452'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.30.5.217:41367'
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/config.py:168: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  data = yaml.load(f.read()) or {}
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+distributed.worker - INFO -       Start worker at:   tcp://172.30.5.217:33405
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/config.py:168: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  data = yaml.load(f.read()) or {}
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+distributed.worker - INFO -       Start worker at:   tcp://172.30.5.217:37240
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/config.py:168: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  data = yaml.load(f.read()) or {}
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+distributed.worker - INFO -       Start worker at:   tcp://172.30.5.217:36371
+distributed.worker - INFO -          Listening to:   tcp://172.30.5.217:33405
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/config.py:168: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  data = yaml.load(f.read()) or {}
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+distributed.worker - INFO -       Start worker at:   tcp://172.30.5.217:34386
+distributed.worker - INFO -          Listening to:   tcp://172.30.5.217:37240
+distributed.worker - INFO -              nanny at:         172.30.5.217:35499
+distributed.worker - INFO -          Listening to:   tcp://172.30.5.217:36371
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/config.py:168: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  data = yaml.load(f.read()) or {}
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+distributed.worker - INFO -       Start worker at:   tcp://172.30.5.217:35083
+distributed.worker - INFO -          Listening to:   tcp://172.30.5.217:34386
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/config.py:168: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  data = yaml.load(f.read()) or {}
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+distributed.worker - INFO -       Start worker at:   tcp://172.30.5.217:37326
+distributed.worker - INFO -              nanny at:         172.30.5.217:41367
+distributed.worker - INFO -              bokeh at:         172.30.5.217:43428
+distributed.worker - INFO -              nanny at:         172.30.5.217:44414
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/config.py:168: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  data = yaml.load(f.read()) or {}
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+distributed.worker - INFO -       Start worker at:   tcp://172.30.5.217:45369
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/config.py:168: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  data = yaml.load(f.read()) or {}
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+distributed.worker - INFO -       Start worker at:   tcp://172.30.5.217:36927
+distributed.worker - INFO -          Listening to:   tcp://172.30.5.217:35083
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/config.py:168: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  data = yaml.load(f.read()) or {}
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+distributed.worker - INFO -       Start worker at:   tcp://172.30.5.217:42521
+distributed.worker - INFO -              bokeh at:         172.30.5.217:40659
+distributed.worker - INFO -          Listening to:   tcp://172.30.5.217:37326
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/config.py:168: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  data = yaml.load(f.read()) or {}
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+distributed.worker - INFO -       Start worker at:   tcp://172.30.5.217:36995
+distributed.worker - INFO -              bokeh at:         172.30.5.217:36642
+distributed.worker - INFO -          Listening to:   tcp://172.30.5.217:45369
+distributed.worker - INFO -              nanny at:         172.30.5.217:42024
+distributed.worker - INFO -          Listening to:   tcp://172.30.5.217:36927
+distributed.worker - INFO -              nanny at:         172.30.5.217:39502
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO -          Listening to:   tcp://172.30.5.217:42521
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -              nanny at:         172.30.5.217:46189
+distributed.worker - INFO -          Listening to:   tcp://172.30.5.217:36995
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO -              nanny at:         172.30.5.217:34141
+distributed.worker - INFO -              bokeh at:         172.30.5.217:46288
+distributed.worker - INFO -              bokeh at:         172.30.5.217:33369
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -              bokeh at:         172.30.5.217:34580
+distributed.worker - INFO -              nanny at:         172.30.5.217:43716
+distributed.worker - INFO -              nanny at:         172.30.5.217:44288
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -              bokeh at:         172.30.5.217:35006
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO -              bokeh at:         172.30.5.217:36448
+distributed.worker - INFO -              bokeh at:         172.30.5.217:45536
+distributed.worker - INFO -              nanny at:         172.30.5.217:36868
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO -              bokeh at:         172.30.5.217:37088
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -                Memory:                    4.29 GB
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO -       Local Directory: /scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-tkgkvpem
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -                Memory:                    4.29 GB
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -                Memory:                    4.29 GB
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -       Local Directory: /scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-zdg4ohiy
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -                Memory:                    4.29 GB
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.29 GB
+distributed.worker - INFO -       Local Directory: /scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-jkcqoenk
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Local Directory: /scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-zkkmifn7
+distributed.worker - INFO -                Memory:                    4.29 GB
+distributed.worker - INFO -       Local Directory: /scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-x8t9pvmn
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.29 GB
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -                Memory:                    4.29 GB
+distributed.worker - INFO -       Local Directory: /scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-15qe46u8
+distributed.worker - INFO -                Memory:                    4.29 GB
+distributed.worker - INFO -       Local Directory: /scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-mv0uglqp
+distributed.worker - INFO -                Memory:                    4.29 GB
+distributed.worker - INFO -       Local Directory: /scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-4r89ij1g
+distributed.worker - INFO -       Local Directory: /scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-acznoqh5
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Local Directory: /scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-5enmwwq9
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/config.py:168: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  data = yaml.load(f.read()) or {}
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+distributed.worker - INFO -       Start worker at:   tcp://172.30.5.217:40351
+distributed.worker - INFO -          Listening to:   tcp://172.30.5.217:40351
+distributed.worker - INFO -              nanny at:         172.30.5.217:46196
+distributed.worker - INFO -              bokeh at:         172.30.5.217:36975
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.29 GB
+distributed.worker - INFO -       Local Directory: /scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-1atp65yh
+distributed.worker - INFO - -------------------------------------------------
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/config.py:168: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  data = yaml.load(f.read()) or {}
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+distributed.worker - INFO -       Start worker at:   tcp://172.30.5.217:36202
+distributed.worker - INFO -          Listening to:   tcp://172.30.5.217:36202
+distributed.worker - INFO -              nanny at:         172.30.5.217:45976
+distributed.worker - INFO -              bokeh at:         172.30.5.217:34133
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.29 GB
+distributed.worker - INFO -       Local Directory: /scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3owal9hb
+distributed.worker - INFO - -------------------------------------------------
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/config.py:168: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  data = yaml.load(f.read()) or {}
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+distributed.worker - INFO -       Start worker at:   tcp://172.30.5.217:43689
+distributed.worker - INFO -          Listening to:   tcp://172.30.5.217:43689
+distributed.worker - INFO -              nanny at:         172.30.5.217:39452
+distributed.worker - INFO -              bokeh at:         172.30.5.217:37345
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.29 GB
+distributed.worker - INFO -       Local Directory: /scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-6ltflm8x
+distributed.worker - INFO - -------------------------------------------------
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/config.py:168: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  data = yaml.load(f.read()) or {}
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+distributed.worker - INFO -       Start worker at:   tcp://172.30.5.217:39212
+distributed.worker - INFO -          Listening to:   tcp://172.30.5.217:39212
+distributed.worker - INFO -              nanny at:         172.30.5.217:35125
+distributed.worker - INFO -              bokeh at:         172.30.5.217:39821
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.29 GB
+distributed.worker - INFO -       Local Directory: /scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-x0uoqa6u
+distributed.worker - INFO - -------------------------------------------------
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/config.py:168: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  data = yaml.load(f.read()) or {}
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+distributed.worker - INFO -       Start worker at:   tcp://172.30.5.217:44895
+distributed.worker - INFO -          Listening to:   tcp://172.30.5.217:44895
+distributed.worker - INFO -              nanny at:         172.30.5.217:36893
+distributed.worker - INFO -              bokeh at:         172.30.5.217:38901
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.29 GB
+distributed.worker - INFO -       Local Directory: /scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-orqlc5wm
+distributed.worker - INFO - -------------------------------------------------
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/config.py:168: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  data = yaml.load(f.read()) or {}
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+distributed.worker - INFO -       Start worker at:   tcp://172.30.5.217:46077
+distributed.worker - INFO -          Listening to:   tcp://172.30.5.217:46077
+distributed.worker - INFO -              nanny at:         172.30.5.217:33541
+distributed.worker - INFO -              bokeh at:         172.30.5.217:37741
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.29 GB
+distributed.worker - INFO -       Local Directory: /scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-q374xy92
+distributed.worker - INFO - -------------------------------------------------
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/config.py:168: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  data = yaml.load(f.read()) or {}
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+distributed.worker - INFO -       Start worker at:   tcp://172.30.5.217:33970
+distributed.worker - INFO -          Listening to:   tcp://172.30.5.217:33970
+distributed.worker - INFO -              nanny at:         172.30.5.217:46163
+distributed.worker - INFO -              bokeh at:         172.30.5.217:39095
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.29 GB
+distributed.worker - INFO -       Local Directory: /scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-yrh3c99j
+distributed.worker - INFO - -------------------------------------------------
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/config.py:168: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  data = yaml.load(f.read()) or {}
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+distributed.worker - INFO -       Start worker at:   tcp://172.30.5.217:46493
+distributed.worker - INFO -          Listening to:   tcp://172.30.5.217:46493
+distributed.worker - INFO -              nanny at:         172.30.5.217:41791
+distributed.worker - INFO -              bokeh at:         172.30.5.217:39892
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.29 GB
+distributed.worker - INFO -       Local Directory: /scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-m2pim5fd
+distributed.worker - INFO - -------------------------------------------------
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/config.py:168: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  data = yaml.load(f.read()) or {}
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+distributed.worker - INFO -       Start worker at:   tcp://172.30.5.217:36685
+distributed.worker - INFO -          Listening to:   tcp://172.30.5.217:36685
+distributed.worker - INFO -              nanny at:         172.30.5.217:46287
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/config.py:168: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  data = yaml.load(f.read()) or {}
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+distributed.worker - INFO -       Start worker at:   tcp://172.30.5.217:45222
+distributed.worker - INFO -              bokeh at:         172.30.5.217:44891
+distributed.worker - INFO -          Listening to:   tcp://172.30.5.217:45222
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO -              nanny at:         172.30.5.217:34748
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -              bokeh at:         172.30.5.217:36365
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -                Memory:                    4.29 GB
+distributed.worker - INFO -       Local Directory: /scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-9xrka_8f
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -                Memory:                    4.29 GB
+distributed.worker - INFO -       Local Directory: /scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-f6yq9wvv
+distributed.worker - INFO - -------------------------------------------------
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/config.py:168: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  data = yaml.load(f.read()) or {}
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+distributed.worker - INFO -       Start worker at:   tcp://172.30.5.217:39286
+distributed.worker - INFO -          Listening to:   tcp://172.30.5.217:39286
+distributed.worker - INFO -              nanny at:         172.30.5.217:34058
+distributed.worker - INFO -              bokeh at:         172.30.5.217:40190
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.29 GB
+distributed.worker - INFO -       Local Directory: /scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-5g6gi9qu
+distributed.worker - INFO - -------------------------------------------------
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/config.py:168: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  data = yaml.load(f.read()) or {}
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+distributed.worker - INFO -       Start worker at:   tcp://172.30.5.217:42563
+distributed.worker - INFO -          Listening to:   tcp://172.30.5.217:42563
+distributed.worker - INFO -              nanny at:         172.30.5.217:42685
+distributed.worker - INFO -              bokeh at:         172.30.5.217:46378
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.29 GB
+distributed.worker - INFO -       Local Directory: /scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-j9cgzntt
+distributed.worker - INFO - -------------------------------------------------
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/config.py:168: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  data = yaml.load(f.read()) or {}
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+distributed.worker - INFO -       Start worker at:   tcp://172.30.5.217:46590
+distributed.worker - INFO -          Listening to:   tcp://172.30.5.217:46590
+distributed.worker - INFO -              nanny at:         172.30.5.217:38246
+distributed.worker - INFO -              bokeh at:         172.30.5.217:37969
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.29 GB
+distributed.worker - INFO -       Local Directory: /scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-w_fkx1n5
+distributed.worker - INFO - -------------------------------------------------
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/config.py:168: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  data = yaml.load(f.read()) or {}
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+distributed.worker - INFO -       Start worker at:   tcp://172.30.5.217:41555
+distributed.worker - INFO -          Listening to:   tcp://172.30.5.217:41555
+distributed.worker - INFO -              nanny at:         172.30.5.217:38348
+distributed.worker - INFO -              bokeh at:         172.30.5.217:35363
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.29 GB
+distributed.worker - INFO -       Local Directory: /scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3xmo4fzy
+distributed.worker - INFO - -------------------------------------------------
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/config.py:168: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  data = yaml.load(f.read()) or {}
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+distributed.worker - INFO -       Start worker at:   tcp://172.30.5.217:46602
+distributed.worker - INFO -          Listening to:   tcp://172.30.5.217:46602
+distributed.worker - INFO -              nanny at:         172.30.5.217:33596
+distributed.worker - INFO -              bokeh at:         172.30.5.217:34270
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.29 GB
+distributed.worker - INFO -       Local Directory: /scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3q6mubqo
+distributed.worker - INFO - -------------------------------------------------
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/config.py:168: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  data = yaml.load(f.read()) or {}
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+distributed.worker - INFO -       Start worker at:   tcp://172.30.5.217:36940
+distributed.worker - INFO -          Listening to:   tcp://172.30.5.217:36940
+distributed.worker - INFO -              nanny at:         172.30.5.217:41553
+distributed.worker - INFO -              bokeh at:         172.30.5.217:34408
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.29 GB
+distributed.worker - INFO -       Local Directory: /scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-_pdxm12c
+distributed.worker - INFO - -------------------------------------------------
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/config.py:168: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  data = yaml.load(f.read()) or {}
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+distributed.worker - INFO -       Start worker at:   tcp://172.30.5.217:41835
+distributed.worker - INFO -          Listening to:   tcp://172.30.5.217:41835
+distributed.worker - INFO -              nanny at:         172.30.5.217:37425
+distributed.worker - INFO -              bokeh at:         172.30.5.217:34538
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.29 GB
+distributed.worker - INFO -       Local Directory: /scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-9t64ojc8
+distributed.worker - INFO - -------------------------------------------------
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/config.py:168: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  data = yaml.load(f.read()) or {}
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+distributed.worker - INFO -       Start worker at:   tcp://172.30.5.217:40388
+distributed.worker - INFO -          Listening to:   tcp://172.30.5.217:40388
+distributed.worker - INFO -              nanny at:         172.30.5.217:45957
+distributed.worker - INFO -              bokeh at:         172.30.5.217:39736
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.29 GB
+distributed.worker - INFO -       Local Directory: /scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-i9i9yfrs
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.4:44137
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.30.5.217:34058'
+distributed.worker - INFO - Stopping worker at tcp://172.30.5.217:39286
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.30.5.217:46189'
+distributed.worker - INFO - Stopping worker at tcp://172.30.5.217:37326
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.30.5.217:38246'
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.30.5.217:44288'
+distributed.worker - INFO - Stopping worker at tcp://172.30.5.217:46590
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.30.5.217:42685'
+distributed.worker - INFO - Stopping worker at tcp://172.30.5.217:36995
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.30.5.217:36868'
+distributed.worker - INFO - Stopping worker at tcp://172.30.5.217:42563
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.30.5.217:38348'
+distributed.worker - INFO - Stopping worker at tcp://172.30.5.217:42521
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.30.5.217:41553'
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.30.5.217:46287'
+distributed.worker - INFO - Stopping worker at tcp://172.30.5.217:41555
+distributed.worker - INFO - Stopping worker at tcp://172.30.5.217:36940
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.30.5.217:39502'
+distributed.worker - INFO - Stopping worker at tcp://172.30.5.217:36685
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.30.5.217:34141'
+distributed.worker - INFO - Stopping worker at tcp://172.30.5.217:35083
+distributed.worker - INFO - Stopping worker at tcp://172.30.5.217:45369
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.30.5.217:43716'
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.30.5.217:42024'
+distributed.worker - INFO - Stopping worker at tcp://172.30.5.217:36927
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.30.5.217:34748'
+distributed.worker - INFO - Stopping worker at tcp://172.30.5.217:34386
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.30.5.217:46196'
+distributed.worker - INFO - Stopping worker at tcp://172.30.5.217:45222
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.30.5.217:33541'
+distributed.worker - INFO - Stopping worker at tcp://172.30.5.217:40351
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.30.5.217:46163'
+distributed.worker - INFO - Stopping worker at tcp://172.30.5.217:46077
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.30.5.217:41791'
+distributed.worker - INFO - Stopping worker at tcp://172.30.5.217:33970
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.30.5.217:35499'
+distributed.worker - INFO - Stopping worker at tcp://172.30.5.217:46493
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.30.5.217:45976'
+distributed.worker - INFO - Stopping worker at tcp://172.30.5.217:33405
+distributed.worker - INFO - Stopping worker at tcp://172.30.5.217:36202
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.30.5.217:37425'
+distributed.worker - INFO - Stopping worker at tcp://172.30.5.217:41835
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.30.5.217:45957'
+distributed.worker - INFO - Stopping worker at tcp://172.30.5.217:40388
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.30.5.217:36893'
+distributed.worker - INFO - Stopping worker at tcp://172.30.5.217:44895
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.30.5.217:35125'
+distributed.worker - INFO - Stopping worker at tcp://172.30.5.217:39212
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.30.5.217:44414'
+distributed.worker - INFO - Stopping worker at tcp://172.30.5.217:36371
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.30.5.217:33596'
+distributed.worker - INFO - Stopping worker at tcp://172.30.5.217:46602
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.30.5.217:39452'
+distributed.worker - INFO - Stopping worker at tcp://172.30.5.217:43689
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.30.5.217:41367'
+distributed.worker - INFO - Stopping worker at tcp://172.30.5.217:37240
+distributed.dask_worker - INFO - End worker
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/config.py:168: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  data = yaml.load(f.read()) or {}
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,

@@ -1,0 +1,874 @@
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/config.py:168: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  data = yaml.load(f.read()) or {}
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.30.10.46:36090'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.30.10.46:39300'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.30.10.46:40544'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.30.10.46:37519'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.30.10.46:39047'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.30.10.46:36292'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.30.10.46:34978'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.30.10.46:37186'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.30.10.46:38936'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.30.10.46:40102'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.30.10.46:42614'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.30.10.46:35138'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.30.10.46:45066'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.30.10.46:36725'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.30.10.46:42967'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.30.10.46:38617'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.30.10.46:42661'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.30.10.46:41290'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.30.10.46:40637'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.30.10.46:39193'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.30.10.46:35000'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.30.10.46:34711'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.30.10.46:32993'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.30.10.46:43163'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.30.10.46:42222'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.30.10.46:44354'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.30.10.46:35533'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.30.10.46:43400'
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/config.py:168: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  data = yaml.load(f.read()) or {}
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/contextlib.py:119: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at:   tcp://172.30.10.46:45887
+distributed.worker - INFO -          Listening to:   tcp://172.30.10.46:45887
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/config.py:168: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  data = yaml.load(f.read()) or {}
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/contextlib.py:119: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at:   tcp://172.30.10.46:35738
+distributed.worker - INFO -              nanny at:         172.30.10.46:38617
+distributed.worker - INFO -          Listening to:   tcp://172.30.10.46:35738
+distributed.worker - INFO -              bokeh at:         172.30.10.46:38420
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO -              nanny at:         172.30.10.46:39300
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -              bokeh at:         172.30.10.46:43108
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -                Memory:                    4.29 GB
+distributed.worker - INFO -       Local Directory: /scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-6vdttbkn
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -                Memory:                    4.29 GB
+distributed.worker - INFO -       Local Directory: /scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-aegazm8m
+distributed.worker - INFO - -------------------------------------------------
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/config.py:168: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  data = yaml.load(f.read()) or {}
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/contextlib.py:119: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at:   tcp://172.30.10.46:34086
+distributed.worker - INFO -          Listening to:   tcp://172.30.10.46:34086
+distributed.worker - INFO -              nanny at:         172.30.10.46:37186
+distributed.worker - INFO -              bokeh at:         172.30.10.46:40854
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.29 GB
+distributed.worker - INFO -       Local Directory: /scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-9j0l08gh
+distributed.worker - INFO - -------------------------------------------------
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/config.py:168: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  data = yaml.load(f.read()) or {}
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/contextlib.py:119: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at:   tcp://172.30.10.46:46107
+distributed.worker - INFO -          Listening to:   tcp://172.30.10.46:46107
+distributed.worker - INFO -              nanny at:         172.30.10.46:40102
+distributed.worker - INFO -              bokeh at:         172.30.10.46:37209
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.29 GB
+distributed.worker - INFO -       Local Directory: /scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-1j17h4o6
+distributed.worker - INFO - -------------------------------------------------
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/config.py:168: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  data = yaml.load(f.read()) or {}
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/contextlib.py:119: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at:   tcp://172.30.10.46:36521
+distributed.worker - INFO -          Listening to:   tcp://172.30.10.46:36521
+distributed.worker - INFO -              nanny at:         172.30.10.46:37519
+distributed.worker - INFO -              bokeh at:         172.30.10.46:44306
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.29 GB
+distributed.worker - INFO -       Local Directory: /scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-gkpmdzoc
+distributed.worker - INFO - -------------------------------------------------
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/config.py:168: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  data = yaml.load(f.read()) or {}
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/contextlib.py:119: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at:   tcp://172.30.10.46:36488
+distributed.worker - INFO -          Listening to:   tcp://172.30.10.46:36488
+distributed.worker - INFO -              nanny at:         172.30.10.46:36292
+distributed.worker - INFO -              bokeh at:         172.30.10.46:41364
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.29 GB
+distributed.worker - INFO -       Local Directory: /scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-yrrt7ppf
+distributed.worker - INFO - -------------------------------------------------
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/config.py:168: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  data = yaml.load(f.read()) or {}
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/contextlib.py:119: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at:   tcp://172.30.10.46:41458
+distributed.worker - INFO -          Listening to:   tcp://172.30.10.46:41458
+distributed.worker - INFO -              nanny at:         172.30.10.46:43400
+distributed.worker - INFO -              bokeh at:         172.30.10.46:44341
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.29 GB
+distributed.worker - INFO -       Local Directory: /scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-2f_seroh
+distributed.worker - INFO - -------------------------------------------------
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/config.py:168: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  data = yaml.load(f.read()) or {}
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/contextlib.py:119: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at:   tcp://172.30.10.46:34349
+distributed.worker - INFO -          Listening to:   tcp://172.30.10.46:34349
+distributed.worker - INFO -              nanny at:         172.30.10.46:44354
+distributed.worker - INFO -              bokeh at:         172.30.10.46:42161
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.29 GB
+distributed.worker - INFO -       Local Directory: /scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-ewrgr5kf
+distributed.worker - INFO - -------------------------------------------------
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/config.py:168: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  data = yaml.load(f.read()) or {}
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/contextlib.py:119: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at:   tcp://172.30.10.46:39506
+distributed.worker - INFO -         Registered to:   tcp://172.30.100.3:46204
+distributed.worker - INFO -         Registered to:   tcp://172.30.100.3:46204
+distributed.worker - INFO -          Listening to:   tcp://172.30.10.46:39506
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -              nanny at:         172.30.10.46:35000
+distributed.worker - INFO -         Registered to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -              bokeh at:         172.30.10.46:45030
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO -         Registered to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -                Memory:                    4.29 GB
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -       Local Directory: /scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-olykhr3a
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.core - INFO - Starting established connection
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/config.py:168: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  data = yaml.load(f.read()) or {}
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/contextlib.py:119: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at:   tcp://172.30.10.46:35287
+distributed.worker - INFO -          Listening to:   tcp://172.30.10.46:35287
+distributed.worker - INFO -              nanny at:         172.30.10.46:39047
+distributed.worker - INFO -              bokeh at:         172.30.10.46:42087
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.29 GB
+distributed.worker - INFO -       Local Directory: /scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-qp3ru96x
+distributed.worker - INFO - -------------------------------------------------
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/config.py:168: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  data = yaml.load(f.read()) or {}
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/contextlib.py:119: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at:   tcp://172.30.10.46:44942
+distributed.worker - INFO -          Listening to:   tcp://172.30.10.46:44942
+distributed.worker - INFO -              nanny at:         172.30.10.46:42967
+distributed.worker - INFO -              bokeh at:         172.30.10.46:42109
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.29 GB
+distributed.worker - INFO -       Local Directory: /scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-gdgblsvn
+distributed.worker - INFO - -------------------------------------------------
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/config.py:168: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  data = yaml.load(f.read()) or {}
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/contextlib.py:119: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at:   tcp://172.30.10.46:37774
+distributed.worker - INFO -          Listening to:   tcp://172.30.10.46:37774
+distributed.worker - INFO -              nanny at:         172.30.10.46:42222
+distributed.worker - INFO -              bokeh at:         172.30.10.46:44500
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.29 GB
+distributed.worker - INFO -       Local Directory: /scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-3jb40kai
+distributed.worker - INFO - -------------------------------------------------
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/config.py:168: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  data = yaml.load(f.read()) or {}
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/contextlib.py:119: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at:   tcp://172.30.10.46:35090
+distributed.worker - INFO -          Listening to:   tcp://172.30.10.46:35090
+distributed.worker - INFO -              nanny at:         172.30.10.46:42614
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/config.py:168: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  data = yaml.load(f.read()) or {}
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/contextlib.py:119: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at:   tcp://172.30.10.46:38535
+distributed.worker - INFO -              bokeh at:         172.30.10.46:40733
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO -          Listening to:   tcp://172.30.10.46:38535
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -              nanny at:         172.30.10.46:40637
+distributed.worker - INFO -              bokeh at:         172.30.10.46:44793
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO -                Memory:                    4.29 GB
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Local Directory: /scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-w6xtaqbb
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -                Memory:                    4.29 GB
+distributed.worker - INFO -       Local Directory: /scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-0dlc3z1n
+distributed.worker - INFO - -------------------------------------------------
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/config.py:168: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  data = yaml.load(f.read()) or {}
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/contextlib.py:119: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at:   tcp://172.30.10.46:44805
+distributed.worker - INFO -          Listening to:   tcp://172.30.10.46:44805
+distributed.worker - INFO -              nanny at:         172.30.10.46:38936
+distributed.worker - INFO -              bokeh at:         172.30.10.46:46320
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.29 GB
+distributed.worker - INFO -       Local Directory: /scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-xv7bo025
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - -------------------------------------------------
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/config.py:168: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  data = yaml.load(f.read()) or {}
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/contextlib.py:119: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at:   tcp://172.30.10.46:39501
+distributed.worker - INFO -         Registered to:   tcp://172.30.100.3:46204
+distributed.worker - INFO -          Listening to:   tcp://172.30.10.46:39501
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -              nanny at:         172.30.10.46:43163
+distributed.worker - INFO -         Registered to:   tcp://172.30.100.3:46204
+distributed.worker - INFO -              bokeh at:         172.30.10.46:37686
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:   tcp://172.30.100.3:46204
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO -         Registered to:   tcp://172.30.100.3:46204
+distributed.worker - INFO -         Registered to:   tcp://172.30.100.3:46204
+distributed.worker - INFO -         Registered to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.29 GB
+distributed.worker - INFO -       Local Directory: /scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-wlgau9gm
+distributed.core - INFO - Starting established connection
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.core - INFO - Starting established connection
+distributed.core - INFO - Starting established connection
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/config.py:168: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  data = yaml.load(f.read()) or {}
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/contextlib.py:119: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at:   tcp://172.30.10.46:39129
+distributed.worker - INFO -          Listening to:   tcp://172.30.10.46:39129
+distributed.worker - INFO -              nanny at:         172.30.10.46:36090
+distributed.worker - INFO -              bokeh at:         172.30.10.46:34070
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.29 GB
+distributed.worker - INFO -       Local Directory: /scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-ulwyjw70
+distributed.worker - INFO - -------------------------------------------------
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/config.py:168: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  data = yaml.load(f.read()) or {}
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/contextlib.py:119: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at:   tcp://172.30.10.46:40642
+distributed.worker - INFO -          Listening to:   tcp://172.30.10.46:40642
+distributed.worker - INFO -              nanny at:         172.30.10.46:36725
+distributed.worker - INFO -              bokeh at:         172.30.10.46:34108
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.29 GB
+distributed.worker - INFO -         Registered to:   tcp://172.30.100.3:46204
+distributed.worker - INFO -       Local Directory: /scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-yk9rcl5y
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/config.py:168: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  data = yaml.load(f.read()) or {}
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/contextlib.py:119: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at:   tcp://172.30.10.46:40845
+distributed.worker - INFO -          Listening to:   tcp://172.30.10.46:40845
+distributed.worker - INFO -              nanny at:         172.30.10.46:34711
+distributed.worker - INFO -              bokeh at:         172.30.10.46:46087
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.29 GB
+distributed.worker - INFO -       Local Directory: /scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-x8wwqks1
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/config.py:168: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  data = yaml.load(f.read()) or {}
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/contextlib.py:119: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at:   tcp://172.30.10.46:39928
+distributed.worker - INFO -          Listening to:   tcp://172.30.10.46:39928
+distributed.worker - INFO -              nanny at:         172.30.10.46:42661
+distributed.worker - INFO -              bokeh at:         172.30.10.46:35149
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.29 GB
+distributed.worker - INFO -       Local Directory: /scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-7crngapb
+distributed.worker - INFO - -------------------------------------------------
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/config.py:168: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  data = yaml.load(f.read()) or {}
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/contextlib.py:119: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at:   tcp://172.30.10.46:45614
+distributed.worker - INFO -          Listening to:   tcp://172.30.10.46:45614
+distributed.worker - INFO -              nanny at:         172.30.10.46:32993
+distributed.worker - INFO -              bokeh at:         172.30.10.46:34028
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.29 GB
+distributed.worker - INFO -       Local Directory: /scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-0u6w437n
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/config.py:168: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  data = yaml.load(f.read()) or {}
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/contextlib.py:119: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at:   tcp://172.30.10.46:38068
+distributed.worker - INFO -          Listening to:   tcp://172.30.10.46:38068
+distributed.worker - INFO -              nanny at:         172.30.10.46:34978
+distributed.worker - INFO -              bokeh at:         172.30.10.46:40314
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.29 GB
+distributed.worker - INFO -       Local Directory: /scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-58uf04vt
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/config.py:168: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  data = yaml.load(f.read()) or {}
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/contextlib.py:119: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at:   tcp://172.30.10.46:38309
+distributed.worker - INFO -          Listening to:   tcp://172.30.10.46:38309
+distributed.worker - INFO -              nanny at:         172.30.10.46:39193
+distributed.worker - INFO -              bokeh at:         172.30.10.46:36279
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.29 GB
+distributed.worker - INFO -       Local Directory: /scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-oqy7y9l3
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/config.py:168: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  data = yaml.load(f.read()) or {}
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/contextlib.py:119: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at:   tcp://172.30.10.46:36232
+distributed.worker - INFO -          Listening to:   tcp://172.30.10.46:36232
+distributed.worker - INFO -              nanny at:         172.30.10.46:35138
+distributed.worker - INFO -              bokeh at:         172.30.10.46:45075
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.29 GB
+distributed.worker - INFO -       Local Directory: /scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-enwdrbu8
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/config.py:168: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  data = yaml.load(f.read()) or {}
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/contextlib.py:119: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at:   tcp://172.30.10.46:33611
+distributed.worker - INFO -          Listening to:   tcp://172.30.10.46:33611
+distributed.worker - INFO -              nanny at:         172.30.10.46:41290
+distributed.worker - INFO -              bokeh at:         172.30.10.46:46089
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.29 GB
+distributed.worker - INFO -       Local Directory: /scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-7vs0niq4
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/config.py:168: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  data = yaml.load(f.read()) or {}
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/contextlib.py:119: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at:   tcp://172.30.10.46:44701
+distributed.worker - INFO -          Listening to:   tcp://172.30.10.46:44701
+distributed.worker - INFO -              nanny at:         172.30.10.46:40544
+distributed.worker - INFO -              bokeh at:         172.30.10.46:44205
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.29 GB
+distributed.worker - INFO -       Local Directory: /scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-vw6qo_q_
+distributed.worker - INFO - -------------------------------------------------
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/config.py:168: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  data = yaml.load(f.read()) or {}
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/contextlib.py:119: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at:   tcp://172.30.10.46:39887
+distributed.worker - INFO -          Listening to:   tcp://172.30.10.46:39887
+distributed.worker - INFO -              nanny at:         172.30.10.46:45066
+distributed.worker - INFO -              bokeh at:         172.30.10.46:38946
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.29 GB
+distributed.worker - INFO -       Local Directory: /scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-qd0_5l18
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - -------------------------------------------------
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/config.py:168: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  data = yaml.load(f.read()) or {}
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/contextlib.py:119: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at:   tcp://172.30.10.46:37755
+distributed.worker - INFO -          Listening to:   tcp://172.30.10.46:37755
+distributed.worker - INFO -              nanny at:         172.30.10.46:35533
+distributed.worker - INFO -              bokeh at:         172.30.10.46:46284
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.29 GB
+distributed.worker - INFO -       Local Directory: /scratch/cnt0024/hmg2840/albert7a/daskjobqueue/worker-eqpcaavz
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.core - INFO - Event loop was unresponsive in Worker for 4.49s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 4.48s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 4.49s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 4.47s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 4.47s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 4.49s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 4.48s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 4.49s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 4.46s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 4.49s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 4.47s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 4.49s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 4.47s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 4.49s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 4.46s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 4.48s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 4.47s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 4.48s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 4.48s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 4.47s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 4.49s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 4.46s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 4.49s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.utils_perf - INFO - full garbage collection released 42.52 MB from 4372 reference cycles (threshold: 10.00 MB)
+distributed.utils_perf - INFO - full garbage collection released 158.02 MB from 803 reference cycles (threshold: 10.00 MB)
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:46204
+distributed.worker - INFO - Stopping worker at tcp://172.30.10.46:39506
+distributed.worker - INFO - Stopping worker at tcp://172.30.10.46:44701
+distributed.worker - INFO - Stopping worker at tcp://172.30.10.46:46107
+distributed.worker - INFO - Stopping worker at tcp://172.30.10.46:34086
+distributed.worker - INFO - Stopping worker at tcp://172.30.10.46:35738
+distributed.worker - INFO - Stopping worker at tcp://172.30.10.46:36521
+distributed.worker - INFO - Stopping worker at tcp://172.30.10.46:39129
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.30.10.46:35000'
+distributed.worker - INFO - Stopping worker at tcp://172.30.10.46:37755
+distributed.worker - INFO - Stopping worker at tcp://172.30.10.46:38068
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.30.10.46:40544'
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.30.10.46:40102'
+distributed.worker - INFO - Stopping worker at tcp://172.30.10.46:33611
+distributed.worker - INFO - Stopping worker at tcp://172.30.10.46:41458
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.30.10.46:39300'
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.30.10.46:37186'
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.30.10.46:36090'
+distributed.worker - INFO - Stopping worker at tcp://172.30.10.46:38309
+distributed.worker - INFO - Stopping worker at tcp://172.30.10.46:39501
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.30.10.46:35533'
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.30.10.46:37519'
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.30.10.46:34978'
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.30.10.46:41290'
+distributed.worker - INFO - Stopping worker at tcp://172.30.10.46:36488
+distributed.worker - INFO - Stopping worker at tcp://172.30.10.46:36232
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.30.10.46:43400'
+distributed.worker - INFO - Stopping worker at tcp://172.30.10.46:40845
+distributed.worker - INFO - Stopping worker at tcp://172.30.10.46:38535
+distributed.worker - INFO - Stopping worker at tcp://172.30.10.46:39887
+distributed.worker - INFO - Stopping worker at tcp://172.30.10.46:40642
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.30.10.46:39193'
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.30.10.46:43163'
+distributed.worker - INFO - Stopping worker at tcp://172.30.10.46:45614
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.30.10.46:36292'
+distributed.worker - INFO - Stopping worker at tcp://172.30.10.46:45887
+distributed.worker - INFO - Stopping worker at tcp://172.30.10.46:44942
+distributed.worker - INFO - Stopping worker at tcp://172.30.10.46:44805
+distributed.worker - INFO - Stopping worker at tcp://172.30.10.46:34349
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.30.10.46:35138'
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.30.10.46:34711'
+distributed.worker - INFO - Stopping worker at tcp://172.30.10.46:39928
+distributed.worker - INFO - Stopping worker at tcp://172.30.10.46:37774
+distributed.worker - INFO - Stopping worker at tcp://172.30.10.46:35287
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.30.10.46:36725'
+distributed.worker - INFO - Stopping worker at tcp://172.30.10.46:35090
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.30.10.46:45066'
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.30.10.46:40637'
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.30.10.46:32993'
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.30.10.46:38936'
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.30.10.46:38617'
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.30.10.46:42967'
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.30.10.46:44354'
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.30.10.46:42222'
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.30.10.46:42661'
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.30.10.46:39047'
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.30.10.46:42614'
+distributed.dask_worker - INFO - End worker
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/dask/config.py:168: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  data = yaml.load(f.read()) or {}
+/scratch/cnt0024/hmg2840/albert7a/anaconda3/lib/python3.7/site-packages/distributed/utils.py:136: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  RuntimeWarning,
