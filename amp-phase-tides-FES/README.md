@@ -2,9 +2,7 @@
 The harmonic analysis of the eNATL60 outputs needs :
 
   - the `TIDAL_TOOLS` :  https://github.com/molines/TIDAL_TOOLS
-  - the python script made by Laurent : `cal1:/mnt/meom/workdir/brodeau/DEV/nemo_conf_manager/misc/python/tidal_cplx_to_amp.py`
-  - barakuda modules made by Laurent : `cal1:/mnt/meom/workdir/brodeau/DEV/barakuda/python/modules/barakuda_tool.py` and `cal1:/mnt/meom/workdir/brodeau/DEV/barakuda/python/modules/barakuda_ncio.py`
+
 ## Steps
-  - the harmonic analysis is performed by submitting a job to visu (large memory needed) : script `make_tidal_amp_phase.ksh`
-  - the `x_elev`, `y_elev` outputs for each frequency are transformed into amplitude and phase : 
-  - the plots are produced :
+  - the harmonic analysis is performed by submitting a job to visu (large memory needed) : script [make_tidal_amp_phase.ksh](https://github.com/AurelieAlbert/eNATL60-plots-paper/blob/master/amp-phase-tides-FES/make_tidal_amp_phase.ksh)
+  - the plots are produced in the notebook : [2020-03-17-AA-maps-amp-phase-M2-eNATL60-FES2014.ipynb](https://github.com/AurelieAlbert/eNATL60-plots-paper/blob/master/amp-phase-tides-FES/2020-03-17-AA-maps-amp-phase-M2-eNATL60-FES2014.ipynb)
