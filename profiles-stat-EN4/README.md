@@ -1,7 +1,8 @@
 # New strategy for a statistical comparison to EN4 profiles
 
 ## Inspiration of previous developments
-  - CMEMS-diags : 
+  - CMEMS diags on NATL60 : https://github.com/auraoupa/CMEMS-diags/tree/master/Comp_ARGO_profiles
+  - CMEMS diags on EU and GS : https://github.com/auraoupa/diags-CMEMS-on-occigen/tree/master/Profiles-EN4
   
 ## Steps
 
