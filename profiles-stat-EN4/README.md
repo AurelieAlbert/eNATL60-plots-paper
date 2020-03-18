@@ -6,6 +6,6 @@
   
 ## Steps
 
-  1. Download 2009 EN4 data : 
+  1. Download 2009 EN4 data : download_EN4-2009_from_ifremer.ksh
   1. Modify selection script to include the list of model files that will be compared to the profil in the json file
   1. Everything with xarray from the beginning
