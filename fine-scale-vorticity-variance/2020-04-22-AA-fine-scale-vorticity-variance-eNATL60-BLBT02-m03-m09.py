@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 
-import dask
-import dask.threaded
-import dask.multiprocessing
-from dask.distributed import Client
+#import dask
+#import dask.threaded
+#import dask.multiprocessing
+#from dask.distributed import Client
 
-c = Client()
-c
+#c = Client()
+#c
 
 
 ## path for mdules
@@ -126,8 +126,8 @@ def plot_vorticity_variance(month):
     datadir='/store/CT1/hmg2840/lbrodeau/'+str(config)+'/'+str(config)+'-'+str(case)+'*-S/'
     filesU=datadir+'*/'+str(config)+'-'+str(case)+'*_1h_*_gridU-2D_2009'+str(month)+'??-2009'+str(month)+'??.nc'
     filesV=datadir+'*/'+str(config)+'-'+str(case)+'*_1h_*_gridV-2D_2009'+str(month)+'??-2009'+str(month)+'??.nc'
-    dsu=xr.open_mfdataset(filesU,chunks={'time_counter':1,'y':700,'x':1000}
-    dsv=xr.open_mfdataset(filesV,chunks={'time_counter':1,'y':700,'x':1000}
+    dsu=xr.open_mfdataset(filesU,chunks={'time_counter':1,'y':700,'x':1000})
+    dsv=xr.open_mfdataset(filesV,chunks={'time_counter':1,'y':700,'x':1000})
     u=dsu.sozocrtx
     v=dsv.somecrty
     curl=curl(u,v,e1v,e2u,ff)
