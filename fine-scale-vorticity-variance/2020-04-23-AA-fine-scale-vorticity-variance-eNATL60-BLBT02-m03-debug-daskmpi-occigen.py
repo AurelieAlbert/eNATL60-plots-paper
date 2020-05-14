@@ -12,7 +12,7 @@ print('Currently working with '+str(len(client.scheduler_info()["workers"]))+' w
 
 
 ## path for mdules
-
+print('Importing librairies')
 import sys
 sys.path.insert(0,"/scratch/cnt0024/hmg2840/albert7a/DEV/git/xscale")
 import xscale
@@ -41,7 +41,7 @@ maskfile='/store/CT1/hmg2840/lbrodeau/eNATL60/eNATL60-I/mesh_mask_eNATL60_3.6.nc
 meshhgrfile='/store/CT1/hmg2840/lbrodeau/eNATL60/eNATL60-I/mesh_mask_eNATL60_3.6.nc'
 meshzgrfile='/store/CT1/hmg2840/lbrodeau/eNATL60/eNATL60-I/mesh_mask_eNATL60_3.6.nc'
 
-
+print('Opening grid files')
 grid=xr.open_dataset(gridfile,chunks={'y':700,'x':1000})
 navlat= grid['nav_lat']
 navlon= grid['nav_lon']
@@ -124,7 +124,7 @@ def compute_vorticity_variance(month):
       os.mkdir('/scratch/cnt0024/hmg2840/albert7a/'+config+'/'+config+'-'+case+'-S/CURL/') 
     except OSError as error: 
       print(error)
-    hpcurl2mcm_dataset.to_netcdf(path='/scratch/cnt0024/hmg2840/albert7a/'+config+'/'+config+'-'+case+'-S/CURL/'+config+'-'+case+'_m'+str(month)+'_coarse-filt-surf-curl.nc',,mode='w')
+    hpcurl2mcm_dataset.to_netcdf(path='/scratch/cnt0024/hmg2840/albert7a/'+config+'/'+config+'-'+case+'-S/CURL/'+config+'-'+case+'_m'+str(month)+'_coarse-filt-surf-curl.nc',mode='w')
 
 month_list=['03']
 
