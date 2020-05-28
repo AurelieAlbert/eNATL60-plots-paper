@@ -1,0 +1,21 @@
+[PROLOGUE] Starting prologue on node node058 at date Thu May 28 16:13:55 UTC 2020
+[PROLOGUE] Ending prologue on node node058 at date Thu May 28 16:13:55 UTC 2020
+[EPILOGUE] Starting epilogue on node node058 at date Thu May 28 16:44:26 UTC 2020
+
+------------ JOB INFO 6182525.admin01 -------------
+
+JOBID		: 6182525.admin01
+USER		: alberta
+GROUP		: swot_aval_oc
+JOB NAME	: dask-worker
+SESSION		: 15550
+RES REQSTED	: ncpus=1,mem=112gb,walltime=00:30:00,place=free
+RES USED	: cpupercent=6,cput=00:02:07,ncpus=1,vmem=229588kb,mem=229588kb,walltime=00:30:30
+BILLING         : 00:30:30 (ncpus x walltime)
+QUEUE		: qt1h
+ACCOUNT		: pangeo
+JOB EXIT CODE	: 271
+
+------------ END JOB INFO 6182525.admin01 ---------
+
+[EPILOGUE] Ending epilogue on node node058 at date Thu May 28 16:44:26 UTC 2020

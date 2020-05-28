@@ -1,0 +1,1993 @@
+distributed.nanny - INFO -         Start Nanny at: 'tcp://10.120.40.66:34158'
+distributed.worker - INFO -       Start worker at:   tcp://10.120.40.66:37395
+distributed.worker - INFO -          Listening to:   tcp://10.120.40.66:37395
+distributed.worker - INFO -          dashboard at:         10.120.40.66:40151
+distributed.worker - INFO - Waiting to connect to:   tcp://10.120.40.97:33653
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                  120.00 GB
+distributed.worker - INFO -       Local Directory: /tmp/pbs.6182541.admin01/worker-2azl8hbj
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:   tcp://10.120.40.97:33653
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/dask/core.py:119: RuntimeWarning: invalid value encountered in less
+  return func(*args2)
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - WARNING - Heartbeat to scheduler failed
+distributed.worker - WARNING - Heartbeat to scheduler failed
+tornado.application - ERROR - Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOLoop object at 0x2b9d8158eb70>>, <Task finished coro=<Worker.heartbeat() done, defined at /softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py:866> exception=OSError("Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d96b349b0>: ConnectionRefusedError: [Errno 111] Connection refused")>)
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 215, in connect
+    quiet_exceptions=EnvironmentError,
+tornado.util.TimeoutError: Timeout
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 743, in _run_callback
+    ret = callback()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 767, in _discard_future_result
+    future.result()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py", line 875, in heartbeat
+    metrics=await self.get_metrics(),
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 747, in send_recv_from_rpc
+    comm = await self.pool.connect(self.addr)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 874, in connect
+    connection_args=self.connection_args,
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 227, in connect
+    _raise(error)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 204, in _raise
+    raise IOError(msg)
+OSError: Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d96b349b0>: ConnectionRefusedError: [Errno 111] Connection refused
+tornado.application - ERROR - Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOLoop object at 0x2b9d8158eb70>>, <Task finished coro=<Worker.heartbeat() done, defined at /softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py:866> exception=OSError("Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d96b34a90>: ConnectionRefusedError: [Errno 111] Connection refused")>)
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 215, in connect
+    quiet_exceptions=EnvironmentError,
+tornado.util.TimeoutError: Timeout
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 743, in _run_callback
+    ret = callback()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 767, in _discard_future_result
+    future.result()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py", line 875, in heartbeat
+    metrics=await self.get_metrics(),
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 747, in send_recv_from_rpc
+    comm = await self.pool.connect(self.addr)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 874, in connect
+    connection_args=self.connection_args,
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 227, in connect
+    _raise(error)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 204, in _raise
+    raise IOError(msg)
+OSError: Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d96b34a90>: ConnectionRefusedError: [Errno 111] Connection refused
+tornado.application - ERROR - Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOLoop object at 0x2b9d8158eb70>>, <Task finished coro=<Worker.heartbeat() done, defined at /softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py:866> exception=OSError("Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d96bea780>: ConnectionRefusedError: [Errno 111] Connection refused")>)
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 215, in connect
+    quiet_exceptions=EnvironmentError,
+tornado.util.TimeoutError: Timeout
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 743, in _run_callback
+    ret = callback()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 767, in _discard_future_result
+    future.result()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py", line 875, in heartbeat
+    metrics=await self.get_metrics(),
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 747, in send_recv_from_rpc
+    comm = await self.pool.connect(self.addr)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 874, in connect
+    connection_args=self.connection_args,
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 227, in connect
+    _raise(error)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 204, in _raise
+    raise IOError(msg)
+OSError: Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d96bea780>: ConnectionRefusedError: [Errno 111] Connection refused
+tornado.application - ERROR - Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOLoop object at 0x2b9d8158eb70>>, <Task finished coro=<Worker.heartbeat() done, defined at /softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py:866> exception=OSError("Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d96b34fd0>: ConnectionRefusedError: [Errno 111] Connection refused")>)
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 215, in connect
+    quiet_exceptions=EnvironmentError,
+tornado.util.TimeoutError: Timeout
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 743, in _run_callback
+    ret = callback()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 767, in _discard_future_result
+    future.result()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py", line 875, in heartbeat
+    metrics=await self.get_metrics(),
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 747, in send_recv_from_rpc
+    comm = await self.pool.connect(self.addr)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 874, in connect
+    connection_args=self.connection_args,
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 227, in connect
+    _raise(error)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 204, in _raise
+    raise IOError(msg)
+OSError: Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d96b34fd0>: ConnectionRefusedError: [Errno 111] Connection refused
+tornado.application - ERROR - Exception in callback <function Worker._register_with_scheduler.<locals>.<lambda> at 0x2b9d8fed6e18>
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 907, in _run
+    return self.callback()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py", line 857, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}),
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/batched.py", line 117, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOLoop object at 0x2b9d8158eb70>>, <Task finished coro=<Worker.heartbeat() done, defined at /softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py:866> exception=OSError("Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d96dbab70>: ConnectionRefusedError: [Errno 111] Connection refused")>)
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 215, in connect
+    quiet_exceptions=EnvironmentError,
+tornado.util.TimeoutError: Timeout
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 743, in _run_callback
+    ret = callback()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 767, in _discard_future_result
+    future.result()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py", line 875, in heartbeat
+    metrics=await self.get_metrics(),
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 747, in send_recv_from_rpc
+    comm = await self.pool.connect(self.addr)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 874, in connect
+    connection_args=self.connection_args,
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 227, in connect
+    _raise(error)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 204, in _raise
+    raise IOError(msg)
+OSError: Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d96dbab70>: ConnectionRefusedError: [Errno 111] Connection refused
+tornado.application - ERROR - Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOLoop object at 0x2b9d8158eb70>>, <Task finished coro=<Worker.heartbeat() done, defined at /softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py:866> exception=OSError("Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d96dba7f0>: ConnectionRefusedError: [Errno 111] Connection refused")>)
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 215, in connect
+    quiet_exceptions=EnvironmentError,
+tornado.util.TimeoutError: Timeout
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 743, in _run_callback
+    ret = callback()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 767, in _discard_future_result
+    future.result()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py", line 875, in heartbeat
+    metrics=await self.get_metrics(),
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 747, in send_recv_from_rpc
+    comm = await self.pool.connect(self.addr)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 874, in connect
+    connection_args=self.connection_args,
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 227, in connect
+    _raise(error)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 204, in _raise
+    raise IOError(msg)
+OSError: Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d96dba7f0>: ConnectionRefusedError: [Errno 111] Connection refused
+tornado.application - ERROR - Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOLoop object at 0x2b9d8158eb70>>, <Task finished coro=<Worker.heartbeat() done, defined at /softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py:866> exception=OSError("Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d968b9748>: ConnectionRefusedError: [Errno 111] Connection refused")>)
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 215, in connect
+    quiet_exceptions=EnvironmentError,
+tornado.util.TimeoutError: Timeout
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 743, in _run_callback
+    ret = callback()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 767, in _discard_future_result
+    future.result()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py", line 875, in heartbeat
+    metrics=await self.get_metrics(),
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 747, in send_recv_from_rpc
+    comm = await self.pool.connect(self.addr)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 874, in connect
+    connection_args=self.connection_args,
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 227, in connect
+    _raise(error)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 204, in _raise
+    raise IOError(msg)
+OSError: Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d968b9748>: ConnectionRefusedError: [Errno 111] Connection refused
+tornado.application - ERROR - Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOLoop object at 0x2b9d8158eb70>>, <Task finished coro=<Worker.heartbeat() done, defined at /softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py:866> exception=OSError("Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d96dba400>: ConnectionRefusedError: [Errno 111] Connection refused")>)
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 215, in connect
+    quiet_exceptions=EnvironmentError,
+tornado.util.TimeoutError: Timeout
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 743, in _run_callback
+    ret = callback()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 767, in _discard_future_result
+    future.result()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py", line 875, in heartbeat
+    metrics=await self.get_metrics(),
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 747, in send_recv_from_rpc
+    comm = await self.pool.connect(self.addr)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 874, in connect
+    connection_args=self.connection_args,
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 227, in connect
+    _raise(error)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 204, in _raise
+    raise IOError(msg)
+OSError: Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d96dba400>: ConnectionRefusedError: [Errno 111] Connection refused
+tornado.application - ERROR - Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOLoop object at 0x2b9d8158eb70>>, <Task finished coro=<Worker.heartbeat() done, defined at /softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py:866> exception=OSError("Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d96dba320>: ConnectionRefusedError: [Errno 111] Connection refused")>)
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 215, in connect
+    quiet_exceptions=EnvironmentError,
+tornado.util.TimeoutError: Timeout
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 743, in _run_callback
+    ret = callback()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 767, in _discard_future_result
+    future.result()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py", line 875, in heartbeat
+    metrics=await self.get_metrics(),
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 747, in send_recv_from_rpc
+    comm = await self.pool.connect(self.addr)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 874, in connect
+    connection_args=self.connection_args,
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 227, in connect
+    _raise(error)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 204, in _raise
+    raise IOError(msg)
+OSError: Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d96dba320>: ConnectionRefusedError: [Errno 111] Connection refused
+tornado.application - ERROR - Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOLoop object at 0x2b9d8158eb70>>, <Task finished coro=<Worker.heartbeat() done, defined at /softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py:866> exception=OSError("Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d968b9198>: ConnectionRefusedError: [Errno 111] Connection refused")>)
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 215, in connect
+    quiet_exceptions=EnvironmentError,
+tornado.util.TimeoutError: Timeout
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 743, in _run_callback
+    ret = callback()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 767, in _discard_future_result
+    future.result()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py", line 875, in heartbeat
+    metrics=await self.get_metrics(),
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 747, in send_recv_from_rpc
+    comm = await self.pool.connect(self.addr)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 874, in connect
+    connection_args=self.connection_args,
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 227, in connect
+    _raise(error)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 204, in _raise
+    raise IOError(msg)
+OSError: Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d968b9198>: ConnectionRefusedError: [Errno 111] Connection refused
+tornado.application - ERROR - Exception in callback <function Worker._register_with_scheduler.<locals>.<lambda> at 0x2b9d8fed6e18>
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 907, in _run
+    return self.callback()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py", line 857, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}),
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/batched.py", line 117, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOLoop object at 0x2b9d8158eb70>>, <Task finished coro=<Worker.heartbeat() done, defined at /softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py:866> exception=OSError("Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d96bea978>: ConnectionRefusedError: [Errno 111] Connection refused")>)
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 215, in connect
+    quiet_exceptions=EnvironmentError,
+tornado.util.TimeoutError: Timeout
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 743, in _run_callback
+    ret = callback()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 767, in _discard_future_result
+    future.result()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py", line 875, in heartbeat
+    metrics=await self.get_metrics(),
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 747, in send_recv_from_rpc
+    comm = await self.pool.connect(self.addr)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 874, in connect
+    connection_args=self.connection_args,
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 227, in connect
+    _raise(error)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 204, in _raise
+    raise IOError(msg)
+OSError: Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d96bea978>: ConnectionRefusedError: [Errno 111] Connection refused
+tornado.application - ERROR - Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOLoop object at 0x2b9d8158eb70>>, <Task finished coro=<Worker.heartbeat() done, defined at /softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py:866> exception=OSError("Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d968b9908>: ConnectionRefusedError: [Errno 111] Connection refused")>)
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 215, in connect
+    quiet_exceptions=EnvironmentError,
+tornado.util.TimeoutError: Timeout
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 743, in _run_callback
+    ret = callback()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 767, in _discard_future_result
+    future.result()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py", line 875, in heartbeat
+    metrics=await self.get_metrics(),
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 747, in send_recv_from_rpc
+    comm = await self.pool.connect(self.addr)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 874, in connect
+    connection_args=self.connection_args,
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 227, in connect
+    _raise(error)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 204, in _raise
+    raise IOError(msg)
+OSError: Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d968b9908>: ConnectionRefusedError: [Errno 111] Connection refused
+tornado.application - ERROR - Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOLoop object at 0x2b9d8158eb70>>, <Task finished coro=<Worker.heartbeat() done, defined at /softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py:866> exception=OSError("Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d95bf2e80>: ConnectionRefusedError: [Errno 111] Connection refused")>)
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 215, in connect
+    quiet_exceptions=EnvironmentError,
+tornado.util.TimeoutError: Timeout
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 743, in _run_callback
+    ret = callback()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 767, in _discard_future_result
+    future.result()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py", line 875, in heartbeat
+    metrics=await self.get_metrics(),
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 747, in send_recv_from_rpc
+    comm = await self.pool.connect(self.addr)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 874, in connect
+    connection_args=self.connection_args,
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 227, in connect
+    _raise(error)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 204, in _raise
+    raise IOError(msg)
+OSError: Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d95bf2e80>: ConnectionRefusedError: [Errno 111] Connection refused
+tornado.application - ERROR - Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOLoop object at 0x2b9d8158eb70>>, <Task finished coro=<Worker.heartbeat() done, defined at /softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py:866> exception=OSError("Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d964c0c88>: ConnectionRefusedError: [Errno 111] Connection refused")>)
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 215, in connect
+    quiet_exceptions=EnvironmentError,
+tornado.util.TimeoutError: Timeout
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 743, in _run_callback
+    ret = callback()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 767, in _discard_future_result
+    future.result()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py", line 875, in heartbeat
+    metrics=await self.get_metrics(),
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 747, in send_recv_from_rpc
+    comm = await self.pool.connect(self.addr)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 874, in connect
+    connection_args=self.connection_args,
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 227, in connect
+    _raise(error)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 204, in _raise
+    raise IOError(msg)
+OSError: Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d964c0c88>: ConnectionRefusedError: [Errno 111] Connection refused
+tornado.application - ERROR - Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOLoop object at 0x2b9d8158eb70>>, <Task finished coro=<Worker.heartbeat() done, defined at /softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py:866> exception=OSError("Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d9686a9b0>: ConnectionRefusedError: [Errno 111] Connection refused")>)
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 215, in connect
+    quiet_exceptions=EnvironmentError,
+tornado.util.TimeoutError: Timeout
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 743, in _run_callback
+    ret = callback()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 767, in _discard_future_result
+    future.result()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py", line 875, in heartbeat
+    metrics=await self.get_metrics(),
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 747, in send_recv_from_rpc
+    comm = await self.pool.connect(self.addr)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 874, in connect
+    connection_args=self.connection_args,
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 227, in connect
+    _raise(error)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 204, in _raise
+    raise IOError(msg)
+OSError: Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d9686a9b0>: ConnectionRefusedError: [Errno 111] Connection refused
+tornado.application - ERROR - Exception in callback <function Worker._register_with_scheduler.<locals>.<lambda> at 0x2b9d8fed6e18>
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 907, in _run
+    return self.callback()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py", line 857, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}),
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/batched.py", line 117, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOLoop object at 0x2b9d8158eb70>>, <Task finished coro=<Worker.heartbeat() done, defined at /softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py:866> exception=OSError("Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d96560748>: ConnectionRefusedError: [Errno 111] Connection refused")>)
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 215, in connect
+    quiet_exceptions=EnvironmentError,
+tornado.util.TimeoutError: Timeout
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 743, in _run_callback
+    ret = callback()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 767, in _discard_future_result
+    future.result()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py", line 875, in heartbeat
+    metrics=await self.get_metrics(),
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 747, in send_recv_from_rpc
+    comm = await self.pool.connect(self.addr)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 874, in connect
+    connection_args=self.connection_args,
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 227, in connect
+    _raise(error)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 204, in _raise
+    raise IOError(msg)
+OSError: Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d96560748>: ConnectionRefusedError: [Errno 111] Connection refused
+tornado.application - ERROR - Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOLoop object at 0x2b9d8158eb70>>, <Task finished coro=<Worker.heartbeat() done, defined at /softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py:866> exception=OSError("Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d964c0710>: ConnectionRefusedError: [Errno 111] Connection refused")>)
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 215, in connect
+    quiet_exceptions=EnvironmentError,
+tornado.util.TimeoutError: Timeout
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 743, in _run_callback
+    ret = callback()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 767, in _discard_future_result
+    future.result()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py", line 875, in heartbeat
+    metrics=await self.get_metrics(),
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 747, in send_recv_from_rpc
+    comm = await self.pool.connect(self.addr)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 874, in connect
+    connection_args=self.connection_args,
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 227, in connect
+    _raise(error)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 204, in _raise
+    raise IOError(msg)
+OSError: Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d964c0710>: ConnectionRefusedError: [Errno 111] Connection refused
+tornado.application - ERROR - Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOLoop object at 0x2b9d8158eb70>>, <Task finished coro=<Worker.heartbeat() done, defined at /softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py:866> exception=OSError("Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d968b97f0>: ConnectionRefusedError: [Errno 111] Connection refused")>)
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 215, in connect
+    quiet_exceptions=EnvironmentError,
+tornado.util.TimeoutError: Timeout
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 743, in _run_callback
+    ret = callback()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 767, in _discard_future_result
+    future.result()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py", line 875, in heartbeat
+    metrics=await self.get_metrics(),
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 747, in send_recv_from_rpc
+    comm = await self.pool.connect(self.addr)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 874, in connect
+    connection_args=self.connection_args,
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 227, in connect
+    _raise(error)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 204, in _raise
+    raise IOError(msg)
+OSError: Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d968b97f0>: ConnectionRefusedError: [Errno 111] Connection refused
+tornado.application - ERROR - Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOLoop object at 0x2b9d8158eb70>>, <Task finished coro=<Worker.heartbeat() done, defined at /softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py:866> exception=OSError("Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d964d6748>: ConnectionRefusedError: [Errno 111] Connection refused")>)
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 215, in connect
+    quiet_exceptions=EnvironmentError,
+tornado.util.TimeoutError: Timeout
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 743, in _run_callback
+    ret = callback()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 767, in _discard_future_result
+    future.result()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py", line 875, in heartbeat
+    metrics=await self.get_metrics(),
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 747, in send_recv_from_rpc
+    comm = await self.pool.connect(self.addr)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 874, in connect
+    connection_args=self.connection_args,
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 227, in connect
+    _raise(error)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 204, in _raise
+    raise IOError(msg)
+OSError: Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d964d6748>: ConnectionRefusedError: [Errno 111] Connection refused
+tornado.application - ERROR - Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOLoop object at 0x2b9d8158eb70>>, <Task finished coro=<Worker.heartbeat() done, defined at /softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py:866> exception=OSError("Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d96560d68>: ConnectionRefusedError: [Errno 111] Connection refused")>)
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 215, in connect
+    quiet_exceptions=EnvironmentError,
+tornado.util.TimeoutError: Timeout
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 743, in _run_callback
+    ret = callback()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 767, in _discard_future_result
+    future.result()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py", line 875, in heartbeat
+    metrics=await self.get_metrics(),
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 747, in send_recv_from_rpc
+    comm = await self.pool.connect(self.addr)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 874, in connect
+    connection_args=self.connection_args,
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 227, in connect
+    _raise(error)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 204, in _raise
+    raise IOError(msg)
+OSError: Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d96560d68>: ConnectionRefusedError: [Errno 111] Connection refused
+tornado.application - ERROR - Exception in callback <function Worker._register_with_scheduler.<locals>.<lambda> at 0x2b9d8fed6e18>
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 907, in _run
+    return self.callback()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py", line 857, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}),
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/batched.py", line 117, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOLoop object at 0x2b9d8158eb70>>, <Task finished coro=<Worker.heartbeat() done, defined at /softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py:866> exception=OSError("Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d964c0780>: ConnectionRefusedError: [Errno 111] Connection refused")>)
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 215, in connect
+    quiet_exceptions=EnvironmentError,
+tornado.util.TimeoutError: Timeout
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 743, in _run_callback
+    ret = callback()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 767, in _discard_future_result
+    future.result()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py", line 875, in heartbeat
+    metrics=await self.get_metrics(),
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 747, in send_recv_from_rpc
+    comm = await self.pool.connect(self.addr)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 874, in connect
+    connection_args=self.connection_args,
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 227, in connect
+    _raise(error)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 204, in _raise
+    raise IOError(msg)
+OSError: Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d964c0780>: ConnectionRefusedError: [Errno 111] Connection refused
+tornado.application - ERROR - Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOLoop object at 0x2b9d8158eb70>>, <Task finished coro=<Worker.heartbeat() done, defined at /softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py:866> exception=OSError("Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d964d6a20>: ConnectionRefusedError: [Errno 111] Connection refused")>)
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 215, in connect
+    quiet_exceptions=EnvironmentError,
+tornado.util.TimeoutError: Timeout
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 743, in _run_callback
+    ret = callback()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 767, in _discard_future_result
+    future.result()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py", line 875, in heartbeat
+    metrics=await self.get_metrics(),
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 747, in send_recv_from_rpc
+    comm = await self.pool.connect(self.addr)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 874, in connect
+    connection_args=self.connection_args,
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 227, in connect
+    _raise(error)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 204, in _raise
+    raise IOError(msg)
+OSError: Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d964d6a20>: ConnectionRefusedError: [Errno 111] Connection refused
+tornado.application - ERROR - Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOLoop object at 0x2b9d8158eb70>>, <Task finished coro=<Worker.heartbeat() done, defined at /softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py:866> exception=OSError("Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d96bea470>: ConnectionRefusedError: [Errno 111] Connection refused")>)
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 215, in connect
+    quiet_exceptions=EnvironmentError,
+tornado.util.TimeoutError: Timeout
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 743, in _run_callback
+    ret = callback()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 767, in _discard_future_result
+    future.result()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py", line 875, in heartbeat
+    metrics=await self.get_metrics(),
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 747, in send_recv_from_rpc
+    comm = await self.pool.connect(self.addr)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 874, in connect
+    connection_args=self.connection_args,
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 227, in connect
+    _raise(error)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 204, in _raise
+    raise IOError(msg)
+OSError: Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d96bea470>: ConnectionRefusedError: [Errno 111] Connection refused
+tornado.application - ERROR - Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOLoop object at 0x2b9d8158eb70>>, <Task finished coro=<Worker.heartbeat() done, defined at /softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py:866> exception=OSError("Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d95f008d0>: ConnectionRefusedError: [Errno 111] Connection refused")>)
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 215, in connect
+    quiet_exceptions=EnvironmentError,
+tornado.util.TimeoutError: Timeout
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 743, in _run_callback
+    ret = callback()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 767, in _discard_future_result
+    future.result()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py", line 875, in heartbeat
+    metrics=await self.get_metrics(),
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 747, in send_recv_from_rpc
+    comm = await self.pool.connect(self.addr)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 874, in connect
+    connection_args=self.connection_args,
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 227, in connect
+    _raise(error)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 204, in _raise
+    raise IOError(msg)
+OSError: Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d95f008d0>: ConnectionRefusedError: [Errno 111] Connection refused
+tornado.application - ERROR - Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOLoop object at 0x2b9d8158eb70>>, <Task finished coro=<Worker.heartbeat() done, defined at /softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py:866> exception=OSError("Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d9684bb00>: ConnectionRefusedError: [Errno 111] Connection refused")>)
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 215, in connect
+    quiet_exceptions=EnvironmentError,
+tornado.util.TimeoutError: Timeout
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 743, in _run_callback
+    ret = callback()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 767, in _discard_future_result
+    future.result()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py", line 875, in heartbeat
+    metrics=await self.get_metrics(),
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 747, in send_recv_from_rpc
+    comm = await self.pool.connect(self.addr)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 874, in connect
+    connection_args=self.connection_args,
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 227, in connect
+    _raise(error)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 204, in _raise
+    raise IOError(msg)
+OSError: Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d9684bb00>: ConnectionRefusedError: [Errno 111] Connection refused
+tornado.application - ERROR - Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOLoop object at 0x2b9d8158eb70>>, <Task finished coro=<Worker.heartbeat() done, defined at /softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py:866> exception=OSError("Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d8ff14630>: ConnectionRefusedError: [Errno 111] Connection refused")>)
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 215, in connect
+    quiet_exceptions=EnvironmentError,
+tornado.util.TimeoutError: Timeout
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 743, in _run_callback
+    ret = callback()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 767, in _discard_future_result
+    future.result()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py", line 875, in heartbeat
+    metrics=await self.get_metrics(),
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 747, in send_recv_from_rpc
+    comm = await self.pool.connect(self.addr)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 874, in connect
+    connection_args=self.connection_args,
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 227, in connect
+    _raise(error)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 204, in _raise
+    raise IOError(msg)
+OSError: Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d8ff14630>: ConnectionRefusedError: [Errno 111] Connection refused
+tornado.application - ERROR - Exception in callback <function Worker._register_with_scheduler.<locals>.<lambda> at 0x2b9d8fed6e18>
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 907, in _run
+    return self.callback()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py", line 857, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}),
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/batched.py", line 117, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOLoop object at 0x2b9d8158eb70>>, <Task finished coro=<Worker.heartbeat() done, defined at /softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py:866> exception=OSError("Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d96beae80>: ConnectionRefusedError: [Errno 111] Connection refused")>)
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 215, in connect
+    quiet_exceptions=EnvironmentError,
+tornado.util.TimeoutError: Timeout
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 743, in _run_callback
+    ret = callback()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 767, in _discard_future_result
+    future.result()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py", line 875, in heartbeat
+    metrics=await self.get_metrics(),
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 747, in send_recv_from_rpc
+    comm = await self.pool.connect(self.addr)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 874, in connect
+    connection_args=self.connection_args,
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 227, in connect
+    _raise(error)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 204, in _raise
+    raise IOError(msg)
+OSError: Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d96beae80>: ConnectionRefusedError: [Errno 111] Connection refused
+tornado.application - ERROR - Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOLoop object at 0x2b9d8158eb70>>, <Task finished coro=<Worker.heartbeat() done, defined at /softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py:866> exception=OSError("Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d95f005f8>: ConnectionRefusedError: [Errno 111] Connection refused")>)
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 215, in connect
+    quiet_exceptions=EnvironmentError,
+tornado.util.TimeoutError: Timeout
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 743, in _run_callback
+    ret = callback()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 767, in _discard_future_result
+    future.result()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py", line 875, in heartbeat
+    metrics=await self.get_metrics(),
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 747, in send_recv_from_rpc
+    comm = await self.pool.connect(self.addr)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 874, in connect
+    connection_args=self.connection_args,
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 227, in connect
+    _raise(error)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 204, in _raise
+    raise IOError(msg)
+OSError: Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d95f005f8>: ConnectionRefusedError: [Errno 111] Connection refused
+tornado.application - ERROR - Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOLoop object at 0x2b9d8158eb70>>, <Task finished coro=<Worker.heartbeat() done, defined at /softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py:866> exception=OSError("Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d968b9588>: ConnectionRefusedError: [Errno 111] Connection refused")>)
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 215, in connect
+    quiet_exceptions=EnvironmentError,
+tornado.util.TimeoutError: Timeout
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 743, in _run_callback
+    ret = callback()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 767, in _discard_future_result
+    future.result()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py", line 875, in heartbeat
+    metrics=await self.get_metrics(),
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 747, in send_recv_from_rpc
+    comm = await self.pool.connect(self.addr)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 874, in connect
+    connection_args=self.connection_args,
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 227, in connect
+    _raise(error)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 204, in _raise
+    raise IOError(msg)
+OSError: Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d968b9588>: ConnectionRefusedError: [Errno 111] Connection refused
+tornado.application - ERROR - Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOLoop object at 0x2b9d8158eb70>>, <Task finished coro=<Worker.heartbeat() done, defined at /softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py:866> exception=OSError("Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d96bea4a8>: ConnectionRefusedError: [Errno 111] Connection refused")>)
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 215, in connect
+    quiet_exceptions=EnvironmentError,
+tornado.util.TimeoutError: Timeout
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 743, in _run_callback
+    ret = callback()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 767, in _discard_future_result
+    future.result()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py", line 875, in heartbeat
+    metrics=await self.get_metrics(),
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 747, in send_recv_from_rpc
+    comm = await self.pool.connect(self.addr)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 874, in connect
+    connection_args=self.connection_args,
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 227, in connect
+    _raise(error)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 204, in _raise
+    raise IOError(msg)
+OSError: Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d96bea4a8>: ConnectionRefusedError: [Errno 111] Connection refused
+tornado.application - ERROR - Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOLoop object at 0x2b9d8158eb70>>, <Task finished coro=<Worker.heartbeat() done, defined at /softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py:866> exception=OSError("Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d97067a90>: ConnectionRefusedError: [Errno 111] Connection refused")>)
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 215, in connect
+    quiet_exceptions=EnvironmentError,
+tornado.util.TimeoutError: Timeout
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 743, in _run_callback
+    ret = callback()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 767, in _discard_future_result
+    future.result()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py", line 875, in heartbeat
+    metrics=await self.get_metrics(),
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 747, in send_recv_from_rpc
+    comm = await self.pool.connect(self.addr)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 874, in connect
+    connection_args=self.connection_args,
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 227, in connect
+    _raise(error)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 204, in _raise
+    raise IOError(msg)
+OSError: Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d97067a90>: ConnectionRefusedError: [Errno 111] Connection refused
+tornado.application - ERROR - Exception in callback <function Worker._register_with_scheduler.<locals>.<lambda> at 0x2b9d8fed6e18>
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 907, in _run
+    return self.callback()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py", line 857, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}),
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/batched.py", line 117, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOLoop object at 0x2b9d8158eb70>>, <Task finished coro=<Worker.heartbeat() done, defined at /softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py:866> exception=OSError("Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d8ff14240>: ConnectionRefusedError: [Errno 111] Connection refused")>)
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 215, in connect
+    quiet_exceptions=EnvironmentError,
+tornado.util.TimeoutError: Timeout
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 743, in _run_callback
+    ret = callback()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 767, in _discard_future_result
+    future.result()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py", line 875, in heartbeat
+    metrics=await self.get_metrics(),
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 747, in send_recv_from_rpc
+    comm = await self.pool.connect(self.addr)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 874, in connect
+    connection_args=self.connection_args,
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 227, in connect
+    _raise(error)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 204, in _raise
+    raise IOError(msg)
+OSError: Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d8ff14240>: ConnectionRefusedError: [Errno 111] Connection refused
+tornado.application - ERROR - Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOLoop object at 0x2b9d8158eb70>>, <Task finished coro=<Worker.heartbeat() done, defined at /softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py:866> exception=OSError("Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d970d2a58>: ConnectionRefusedError: [Errno 111] Connection refused")>)
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 215, in connect
+    quiet_exceptions=EnvironmentError,
+tornado.util.TimeoutError: Timeout
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 743, in _run_callback
+    ret = callback()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 767, in _discard_future_result
+    future.result()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py", line 875, in heartbeat
+    metrics=await self.get_metrics(),
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 747, in send_recv_from_rpc
+    comm = await self.pool.connect(self.addr)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 874, in connect
+    connection_args=self.connection_args,
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 227, in connect
+    _raise(error)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 204, in _raise
+    raise IOError(msg)
+OSError: Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d970d2a58>: ConnectionRefusedError: [Errno 111] Connection refused
+tornado.application - ERROR - Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOLoop object at 0x2b9d8158eb70>>, <Task finished coro=<Worker.heartbeat() done, defined at /softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py:866> exception=OSError("Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d97020dd8>: ConnectionRefusedError: [Errno 111] Connection refused")>)
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 215, in connect
+    quiet_exceptions=EnvironmentError,
+tornado.util.TimeoutError: Timeout
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 743, in _run_callback
+    ret = callback()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 767, in _discard_future_result
+    future.result()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py", line 875, in heartbeat
+    metrics=await self.get_metrics(),
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 747, in send_recv_from_rpc
+    comm = await self.pool.connect(self.addr)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 874, in connect
+    connection_args=self.connection_args,
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 227, in connect
+    _raise(error)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 204, in _raise
+    raise IOError(msg)
+OSError: Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d97020dd8>: ConnectionRefusedError: [Errno 111] Connection refused
+tornado.application - ERROR - Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOLoop object at 0x2b9d8158eb70>>, <Task finished coro=<Worker.heartbeat() done, defined at /softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py:866> exception=OSError("Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d97067cc0>: ConnectionRefusedError: [Errno 111] Connection refused")>)
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 215, in connect
+    quiet_exceptions=EnvironmentError,
+tornado.util.TimeoutError: Timeout
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 743, in _run_callback
+    ret = callback()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 767, in _discard_future_result
+    future.result()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py", line 875, in heartbeat
+    metrics=await self.get_metrics(),
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 747, in send_recv_from_rpc
+    comm = await self.pool.connect(self.addr)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 874, in connect
+    connection_args=self.connection_args,
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 227, in connect
+    _raise(error)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 204, in _raise
+    raise IOError(msg)
+OSError: Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d97067cc0>: ConnectionRefusedError: [Errno 111] Connection refused
+tornado.application - ERROR - Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOLoop object at 0x2b9d8158eb70>>, <Task finished coro=<Worker.heartbeat() done, defined at /softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py:866> exception=OSError("Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d95f006d8>: ConnectionRefusedError: [Errno 111] Connection refused")>)
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 215, in connect
+    quiet_exceptions=EnvironmentError,
+tornado.util.TimeoutError: Timeout
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 743, in _run_callback
+    ret = callback()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 767, in _discard_future_result
+    future.result()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py", line 875, in heartbeat
+    metrics=await self.get_metrics(),
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 747, in send_recv_from_rpc
+    comm = await self.pool.connect(self.addr)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 874, in connect
+    connection_args=self.connection_args,
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 227, in connect
+    _raise(error)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 204, in _raise
+    raise IOError(msg)
+OSError: Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d95f006d8>: ConnectionRefusedError: [Errno 111] Connection refused
+tornado.application - ERROR - Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOLoop object at 0x2b9d8158eb70>>, <Task finished coro=<Worker.heartbeat() done, defined at /softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py:866> exception=OSError("Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d970d2eb8>: ConnectionRefusedError: [Errno 111] Connection refused")>)
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 215, in connect
+    quiet_exceptions=EnvironmentError,
+tornado.util.TimeoutError: Timeout
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 743, in _run_callback
+    ret = callback()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 767, in _discard_future_result
+    future.result()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py", line 875, in heartbeat
+    metrics=await self.get_metrics(),
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 747, in send_recv_from_rpc
+    comm = await self.pool.connect(self.addr)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 874, in connect
+    connection_args=self.connection_args,
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 227, in connect
+    _raise(error)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 204, in _raise
+    raise IOError(msg)
+OSError: Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d970d2eb8>: ConnectionRefusedError: [Errno 111] Connection refused
+tornado.application - ERROR - Exception in callback <function Worker._register_with_scheduler.<locals>.<lambda> at 0x2b9d8fed6e18>
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 907, in _run
+    return self.callback()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py", line 857, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}),
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/batched.py", line 117, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOLoop object at 0x2b9d8158eb70>>, <Task finished coro=<Worker.heartbeat() done, defined at /softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py:866> exception=OSError("Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d9715a7b8>: ConnectionRefusedError: [Errno 111] Connection refused")>)
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 215, in connect
+    quiet_exceptions=EnvironmentError,
+tornado.util.TimeoutError: Timeout
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 743, in _run_callback
+    ret = callback()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 767, in _discard_future_result
+    future.result()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py", line 875, in heartbeat
+    metrics=await self.get_metrics(),
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 747, in send_recv_from_rpc
+    comm = await self.pool.connect(self.addr)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 874, in connect
+    connection_args=self.connection_args,
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 227, in connect
+    _raise(error)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 204, in _raise
+    raise IOError(msg)
+OSError: Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d9715a7b8>: ConnectionRefusedError: [Errno 111] Connection refused
+tornado.application - ERROR - Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOLoop object at 0x2b9d8158eb70>>, <Task finished coro=<Worker.heartbeat() done, defined at /softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py:866> exception=OSError("Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d96beaf98>: ConnectionRefusedError: [Errno 111] Connection refused")>)
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 215, in connect
+    quiet_exceptions=EnvironmentError,
+tornado.util.TimeoutError: Timeout
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 743, in _run_callback
+    ret = callback()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 767, in _discard_future_result
+    future.result()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py", line 875, in heartbeat
+    metrics=await self.get_metrics(),
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 747, in send_recv_from_rpc
+    comm = await self.pool.connect(self.addr)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 874, in connect
+    connection_args=self.connection_args,
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 227, in connect
+    _raise(error)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 204, in _raise
+    raise IOError(msg)
+OSError: Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d96beaf98>: ConnectionRefusedError: [Errno 111] Connection refused
+tornado.application - ERROR - Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOLoop object at 0x2b9d8158eb70>>, <Task finished coro=<Worker.heartbeat() done, defined at /softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py:866> exception=OSError("Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d9712af28>: ConnectionRefusedError: [Errno 111] Connection refused")>)
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 215, in connect
+    quiet_exceptions=EnvironmentError,
+tornado.util.TimeoutError: Timeout
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 743, in _run_callback
+    ret = callback()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 767, in _discard_future_result
+    future.result()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py", line 875, in heartbeat
+    metrics=await self.get_metrics(),
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 747, in send_recv_from_rpc
+    comm = await self.pool.connect(self.addr)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 874, in connect
+    connection_args=self.connection_args,
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 227, in connect
+    _raise(error)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 204, in _raise
+    raise IOError(msg)
+OSError: Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d9712af28>: ConnectionRefusedError: [Errno 111] Connection refused
+tornado.application - ERROR - Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOLoop object at 0x2b9d8158eb70>>, <Task finished coro=<Worker.heartbeat() done, defined at /softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py:866> exception=OSError("Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d97020320>: ConnectionRefusedError: [Errno 111] Connection refused")>)
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 215, in connect
+    quiet_exceptions=EnvironmentError,
+tornado.util.TimeoutError: Timeout
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 743, in _run_callback
+    ret = callback()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 767, in _discard_future_result
+    future.result()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py", line 875, in heartbeat
+    metrics=await self.get_metrics(),
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 747, in send_recv_from_rpc
+    comm = await self.pool.connect(self.addr)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 874, in connect
+    connection_args=self.connection_args,
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 227, in connect
+    _raise(error)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 204, in _raise
+    raise IOError(msg)
+OSError: Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d97020320>: ConnectionRefusedError: [Errno 111] Connection refused
+tornado.application - ERROR - Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOLoop object at 0x2b9d8158eb70>>, <Task finished coro=<Worker.heartbeat() done, defined at /softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py:866> exception=OSError("Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d970203c8>: ConnectionRefusedError: [Errno 111] Connection refused")>)
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 215, in connect
+    quiet_exceptions=EnvironmentError,
+tornado.util.TimeoutError: Timeout
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 743, in _run_callback
+    ret = callback()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 767, in _discard_future_result
+    future.result()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py", line 875, in heartbeat
+    metrics=await self.get_metrics(),
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 747, in send_recv_from_rpc
+    comm = await self.pool.connect(self.addr)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 874, in connect
+    connection_args=self.connection_args,
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 227, in connect
+    _raise(error)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 204, in _raise
+    raise IOError(msg)
+OSError: Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d970203c8>: ConnectionRefusedError: [Errno 111] Connection refused
+tornado.application - ERROR - Exception in callback <function Worker._register_with_scheduler.<locals>.<lambda> at 0x2b9d8fed6e18>
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 907, in _run
+    return self.callback()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py", line 857, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}),
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/batched.py", line 117, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOLoop object at 0x2b9d8158eb70>>, <Task finished coro=<Worker.heartbeat() done, defined at /softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py:866> exception=OSError("Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d9712af60>: ConnectionRefusedError: [Errno 111] Connection refused")>)
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 215, in connect
+    quiet_exceptions=EnvironmentError,
+tornado.util.TimeoutError: Timeout
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 743, in _run_callback
+    ret = callback()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 767, in _discard_future_result
+    future.result()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py", line 875, in heartbeat
+    metrics=await self.get_metrics(),
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 747, in send_recv_from_rpc
+    comm = await self.pool.connect(self.addr)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 874, in connect
+    connection_args=self.connection_args,
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 227, in connect
+    _raise(error)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 204, in _raise
+    raise IOError(msg)
+OSError: Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d9712af60>: ConnectionRefusedError: [Errno 111] Connection refused
+tornado.application - ERROR - Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOLoop object at 0x2b9d8158eb70>>, <Task finished coro=<Worker.heartbeat() done, defined at /softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py:866> exception=OSError("Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d970d2518>: ConnectionRefusedError: [Errno 111] Connection refused")>)
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 215, in connect
+    quiet_exceptions=EnvironmentError,
+tornado.util.TimeoutError: Timeout
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 743, in _run_callback
+    ret = callback()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 767, in _discard_future_result
+    future.result()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py", line 875, in heartbeat
+    metrics=await self.get_metrics(),
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 747, in send_recv_from_rpc
+    comm = await self.pool.connect(self.addr)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 874, in connect
+    connection_args=self.connection_args,
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 227, in connect
+    _raise(error)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 204, in _raise
+    raise IOError(msg)
+OSError: Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d970d2518>: ConnectionRefusedError: [Errno 111] Connection refused
+tornado.application - ERROR - Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOLoop object at 0x2b9d8158eb70>>, <Task finished coro=<Worker.heartbeat() done, defined at /softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py:866> exception=OSError("Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d96fd3898>: ConnectionRefusedError: [Errno 111] Connection refused")>)
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 215, in connect
+    quiet_exceptions=EnvironmentError,
+tornado.util.TimeoutError: Timeout
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 743, in _run_callback
+    ret = callback()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 767, in _discard_future_result
+    future.result()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py", line 875, in heartbeat
+    metrics=await self.get_metrics(),
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 747, in send_recv_from_rpc
+    comm = await self.pool.connect(self.addr)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 874, in connect
+    connection_args=self.connection_args,
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 227, in connect
+    _raise(error)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 204, in _raise
+    raise IOError(msg)
+OSError: Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d96fd3898>: ConnectionRefusedError: [Errno 111] Connection refused
+tornado.application - ERROR - Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOLoop object at 0x2b9d8158eb70>>, <Task finished coro=<Worker.heartbeat() done, defined at /softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py:866> exception=OSError("Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d9715abe0>: ConnectionRefusedError: [Errno 111] Connection refused")>)
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 215, in connect
+    quiet_exceptions=EnvironmentError,
+tornado.util.TimeoutError: Timeout
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 743, in _run_callback
+    ret = callback()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 767, in _discard_future_result
+    future.result()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py", line 875, in heartbeat
+    metrics=await self.get_metrics(),
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 747, in send_recv_from_rpc
+    comm = await self.pool.connect(self.addr)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 874, in connect
+    connection_args=self.connection_args,
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 227, in connect
+    _raise(error)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 204, in _raise
+    raise IOError(msg)
+OSError: Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d9715abe0>: ConnectionRefusedError: [Errno 111] Connection refused
+tornado.application - ERROR - Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOLoop object at 0x2b9d8158eb70>>, <Task finished coro=<Worker.heartbeat() done, defined at /softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py:866> exception=OSError("Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d9715ae10>: ConnectionRefusedError: [Errno 111] Connection refused")>)
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 215, in connect
+    quiet_exceptions=EnvironmentError,
+tornado.util.TimeoutError: Timeout
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 743, in _run_callback
+    ret = callback()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 767, in _discard_future_result
+    future.result()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py", line 875, in heartbeat
+    metrics=await self.get_metrics(),
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 747, in send_recv_from_rpc
+    comm = await self.pool.connect(self.addr)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 874, in connect
+    connection_args=self.connection_args,
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 227, in connect
+    _raise(error)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 204, in _raise
+    raise IOError(msg)
+OSError: Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d9715ae10>: ConnectionRefusedError: [Errno 111] Connection refused
+tornado.application - ERROR - Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOLoop object at 0x2b9d8158eb70>>, <Task finished coro=<Worker.heartbeat() done, defined at /softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py:866> exception=OSError("Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d96530b70>: ConnectionRefusedError: [Errno 111] Connection refused")>)
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 215, in connect
+    quiet_exceptions=EnvironmentError,
+tornado.util.TimeoutError: Timeout
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 743, in _run_callback
+    ret = callback()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 767, in _discard_future_result
+    future.result()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py", line 875, in heartbeat
+    metrics=await self.get_metrics(),
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 747, in send_recv_from_rpc
+    comm = await self.pool.connect(self.addr)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 874, in connect
+    connection_args=self.connection_args,
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 227, in connect
+    _raise(error)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 204, in _raise
+    raise IOError(msg)
+OSError: Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d96530b70>: ConnectionRefusedError: [Errno 111] Connection refused
+tornado.application - ERROR - Exception in callback <function Worker._register_with_scheduler.<locals>.<lambda> at 0x2b9d8fed6e18>
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 907, in _run
+    return self.callback()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py", line 857, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}),
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/batched.py", line 117, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOLoop object at 0x2b9d8158eb70>>, <Task finished coro=<Worker.heartbeat() done, defined at /softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py:866> exception=OSError("Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d9712ae80>: ConnectionRefusedError: [Errno 111] Connection refused")>)
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 215, in connect
+    quiet_exceptions=EnvironmentError,
+tornado.util.TimeoutError: Timeout
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 743, in _run_callback
+    ret = callback()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 767, in _discard_future_result
+    future.result()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py", line 875, in heartbeat
+    metrics=await self.get_metrics(),
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 747, in send_recv_from_rpc
+    comm = await self.pool.connect(self.addr)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 874, in connect
+    connection_args=self.connection_args,
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 227, in connect
+    _raise(error)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 204, in _raise
+    raise IOError(msg)
+OSError: Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d9712ae80>: ConnectionRefusedError: [Errno 111] Connection refused
+tornado.application - ERROR - Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOLoop object at 0x2b9d8158eb70>>, <Task finished coro=<Worker.heartbeat() done, defined at /softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py:866> exception=OSError("Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d9715a8d0>: ConnectionRefusedError: [Errno 111] Connection refused")>)
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 215, in connect
+    quiet_exceptions=EnvironmentError,
+tornado.util.TimeoutError: Timeout
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 743, in _run_callback
+    ret = callback()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 767, in _discard_future_result
+    future.result()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py", line 875, in heartbeat
+    metrics=await self.get_metrics(),
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 747, in send_recv_from_rpc
+    comm = await self.pool.connect(self.addr)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 874, in connect
+    connection_args=self.connection_args,
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 227, in connect
+    _raise(error)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 204, in _raise
+    raise IOError(msg)
+OSError: Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d9715a8d0>: ConnectionRefusedError: [Errno 111] Connection refused
+tornado.application - ERROR - Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOLoop object at 0x2b9d8158eb70>>, <Task finished coro=<Worker.heartbeat() done, defined at /softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py:866> exception=OSError("Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d96489ac8>: ConnectionRefusedError: [Errno 111] Connection refused")>)
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 215, in connect
+    quiet_exceptions=EnvironmentError,
+tornado.util.TimeoutError: Timeout
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 743, in _run_callback
+    ret = callback()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 767, in _discard_future_result
+    future.result()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py", line 875, in heartbeat
+    metrics=await self.get_metrics(),
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 747, in send_recv_from_rpc
+    comm = await self.pool.connect(self.addr)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 874, in connect
+    connection_args=self.connection_args,
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 227, in connect
+    _raise(error)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 204, in _raise
+    raise IOError(msg)
+OSError: Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d96489ac8>: ConnectionRefusedError: [Errno 111] Connection refused
+tornado.application - ERROR - Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOLoop object at 0x2b9d8158eb70>>, <Task finished coro=<Worker.heartbeat() done, defined at /softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py:866> exception=OSError("Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d964d6b00>: ConnectionRefusedError: [Errno 111] Connection refused")>)
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 215, in connect
+    quiet_exceptions=EnvironmentError,
+tornado.util.TimeoutError: Timeout
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 743, in _run_callback
+    ret = callback()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 767, in _discard_future_result
+    future.result()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py", line 875, in heartbeat
+    metrics=await self.get_metrics(),
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 747, in send_recv_from_rpc
+    comm = await self.pool.connect(self.addr)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 874, in connect
+    connection_args=self.connection_args,
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 227, in connect
+    _raise(error)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 204, in _raise
+    raise IOError(msg)
+OSError: Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d964d6b00>: ConnectionRefusedError: [Errno 111] Connection refused
+tornado.application - ERROR - Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOLoop object at 0x2b9d8158eb70>>, <Task finished coro=<Worker.heartbeat() done, defined at /softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py:866> exception=OSError("Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d96489908>: ConnectionRefusedError: [Errno 111] Connection refused")>)
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 215, in connect
+    quiet_exceptions=EnvironmentError,
+tornado.util.TimeoutError: Timeout
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 743, in _run_callback
+    ret = callback()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 767, in _discard_future_result
+    future.result()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py", line 875, in heartbeat
+    metrics=await self.get_metrics(),
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 747, in send_recv_from_rpc
+    comm = await self.pool.connect(self.addr)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 874, in connect
+    connection_args=self.connection_args,
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 227, in connect
+    _raise(error)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 204, in _raise
+    raise IOError(msg)
+OSError: Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d96489908>: ConnectionRefusedError: [Errno 111] Connection refused
+tornado.application - ERROR - Exception in callback <function Worker._register_with_scheduler.<locals>.<lambda> at 0x2b9d8fed6e18>
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 907, in _run
+    return self.callback()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py", line 857, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}),
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/batched.py", line 117, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOLoop object at 0x2b9d8158eb70>>, <Task finished coro=<Worker.heartbeat() done, defined at /softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py:866> exception=OSError("Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d970d2278>: ConnectionRefusedError: [Errno 111] Connection refused")>)
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 215, in connect
+    quiet_exceptions=EnvironmentError,
+tornado.util.TimeoutError: Timeout
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 743, in _run_callback
+    ret = callback()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 767, in _discard_future_result
+    future.result()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py", line 875, in heartbeat
+    metrics=await self.get_metrics(),
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 747, in send_recv_from_rpc
+    comm = await self.pool.connect(self.addr)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 874, in connect
+    connection_args=self.connection_args,
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 227, in connect
+    _raise(error)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 204, in _raise
+    raise IOError(msg)
+OSError: Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d970d2278>: ConnectionRefusedError: [Errno 111] Connection refused
+tornado.application - ERROR - Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOLoop object at 0x2b9d8158eb70>>, <Task finished coro=<Worker.heartbeat() done, defined at /softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py:866> exception=OSError("Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d94b816d8>: ConnectionRefusedError: [Errno 111] Connection refused")>)
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 215, in connect
+    quiet_exceptions=EnvironmentError,
+tornado.util.TimeoutError: Timeout
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 743, in _run_callback
+    ret = callback()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 767, in _discard_future_result
+    future.result()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py", line 875, in heartbeat
+    metrics=await self.get_metrics(),
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 747, in send_recv_from_rpc
+    comm = await self.pool.connect(self.addr)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 874, in connect
+    connection_args=self.connection_args,
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 227, in connect
+    _raise(error)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 204, in _raise
+    raise IOError(msg)
+OSError: Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d94b816d8>: ConnectionRefusedError: [Errno 111] Connection refused
+tornado.application - ERROR - Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOLoop object at 0x2b9d8158eb70>>, <Task finished coro=<Worker.heartbeat() done, defined at /softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py:866> exception=OSError("Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d9712a668>: ConnectionRefusedError: [Errno 111] Connection refused")>)
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 215, in connect
+    quiet_exceptions=EnvironmentError,
+tornado.util.TimeoutError: Timeout
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 743, in _run_callback
+    ret = callback()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 767, in _discard_future_result
+    future.result()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py", line 875, in heartbeat
+    metrics=await self.get_metrics(),
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 747, in send_recv_from_rpc
+    comm = await self.pool.connect(self.addr)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 874, in connect
+    connection_args=self.connection_args,
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 227, in connect
+    _raise(error)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 204, in _raise
+    raise IOError(msg)
+OSError: Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d9712a668>: ConnectionRefusedError: [Errno 111] Connection refused
+tornado.application - ERROR - Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOLoop object at 0x2b9d8158eb70>>, <Task finished coro=<Worker.heartbeat() done, defined at /softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py:866> exception=OSError("Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d96b34518>: ConnectionRefusedError: [Errno 111] Connection refused")>)
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 215, in connect
+    quiet_exceptions=EnvironmentError,
+tornado.util.TimeoutError: Timeout
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 743, in _run_callback
+    ret = callback()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 767, in _discard_future_result
+    future.result()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py", line 875, in heartbeat
+    metrics=await self.get_metrics(),
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 747, in send_recv_from_rpc
+    comm = await self.pool.connect(self.addr)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 874, in connect
+    connection_args=self.connection_args,
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 227, in connect
+    _raise(error)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 204, in _raise
+    raise IOError(msg)
+OSError: Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d96b34518>: ConnectionRefusedError: [Errno 111] Connection refused
+tornado.application - ERROR - Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOLoop object at 0x2b9d8158eb70>>, <Task finished coro=<Worker.heartbeat() done, defined at /softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py:866> exception=OSError("Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d9715a6d8>: ConnectionRefusedError: [Errno 111] Connection refused")>)
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 215, in connect
+    quiet_exceptions=EnvironmentError,
+tornado.util.TimeoutError: Timeout
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 743, in _run_callback
+    ret = callback()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 767, in _discard_future_result
+    future.result()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py", line 875, in heartbeat
+    metrics=await self.get_metrics(),
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 747, in send_recv_from_rpc
+    comm = await self.pool.connect(self.addr)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 874, in connect
+    connection_args=self.connection_args,
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 227, in connect
+    _raise(error)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 204, in _raise
+    raise IOError(msg)
+OSError: Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d9715a6d8>: ConnectionRefusedError: [Errno 111] Connection refused
+tornado.application - ERROR - Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOLoop object at 0x2b9d8158eb70>>, <Task finished coro=<Worker.heartbeat() done, defined at /softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py:866> exception=OSError("Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d965602b0>: ConnectionRefusedError: [Errno 111] Connection refused")>)
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 215, in connect
+    quiet_exceptions=EnvironmentError,
+tornado.util.TimeoutError: Timeout
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 743, in _run_callback
+    ret = callback()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 767, in _discard_future_result
+    future.result()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py", line 875, in heartbeat
+    metrics=await self.get_metrics(),
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 747, in send_recv_from_rpc
+    comm = await self.pool.connect(self.addr)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 874, in connect
+    connection_args=self.connection_args,
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 227, in connect
+    _raise(error)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 204, in _raise
+    raise IOError(msg)
+OSError: Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d965602b0>: ConnectionRefusedError: [Errno 111] Connection refused
+tornado.application - ERROR - Exception in callback <function Worker._register_with_scheduler.<locals>.<lambda> at 0x2b9d8fed6e18>
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 907, in _run
+    return self.callback()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py", line 857, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}),
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/batched.py", line 117, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOLoop object at 0x2b9d8158eb70>>, <Task finished coro=<Worker.heartbeat() done, defined at /softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py:866> exception=OSError("Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d96560ac8>: ConnectionRefusedError: [Errno 111] Connection refused")>)
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 215, in connect
+    quiet_exceptions=EnvironmentError,
+tornado.util.TimeoutError: Timeout
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 743, in _run_callback
+    ret = callback()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 767, in _discard_future_result
+    future.result()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py", line 875, in heartbeat
+    metrics=await self.get_metrics(),
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 747, in send_recv_from_rpc
+    comm = await self.pool.connect(self.addr)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 874, in connect
+    connection_args=self.connection_args,
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 227, in connect
+    _raise(error)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 204, in _raise
+    raise IOError(msg)
+OSError: Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d96560ac8>: ConnectionRefusedError: [Errno 111] Connection refused
+tornado.application - ERROR - Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOLoop object at 0x2b9d8158eb70>>, <Task finished coro=<Worker.heartbeat() done, defined at /softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py:866> exception=OSError("Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d96560ba8>: ConnectionRefusedError: [Errno 111] Connection refused")>)
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 215, in connect
+    quiet_exceptions=EnvironmentError,
+tornado.util.TimeoutError: Timeout
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 743, in _run_callback
+    ret = callback()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 767, in _discard_future_result
+    future.result()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py", line 875, in heartbeat
+    metrics=await self.get_metrics(),
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 747, in send_recv_from_rpc
+    comm = await self.pool.connect(self.addr)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 874, in connect
+    connection_args=self.connection_args,
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 227, in connect
+    _raise(error)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 204, in _raise
+    raise IOError(msg)
+OSError: Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d96560ba8>: ConnectionRefusedError: [Errno 111] Connection refused
+tornado.application - ERROR - Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOLoop object at 0x2b9d8158eb70>>, <Task finished coro=<Worker.heartbeat() done, defined at /softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py:866> exception=OSError("Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d9712a898>: ConnectionRefusedError: [Errno 111] Connection refused")>)
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 215, in connect
+    quiet_exceptions=EnvironmentError,
+tornado.util.TimeoutError: Timeout
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 743, in _run_callback
+    ret = callback()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 767, in _discard_future_result
+    future.result()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py", line 875, in heartbeat
+    metrics=await self.get_metrics(),
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 747, in send_recv_from_rpc
+    comm = await self.pool.connect(self.addr)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 874, in connect
+    connection_args=self.connection_args,
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 227, in connect
+    _raise(error)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 204, in _raise
+    raise IOError(msg)
+OSError: Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d9712a898>: ConnectionRefusedError: [Errno 111] Connection refused
+tornado.application - ERROR - Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOLoop object at 0x2b9d8158eb70>>, <Task finished coro=<Worker.heartbeat() done, defined at /softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py:866> exception=OSError("Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d96422fd0>: ConnectionRefusedError: [Errno 111] Connection refused")>)
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 215, in connect
+    quiet_exceptions=EnvironmentError,
+tornado.util.TimeoutError: Timeout
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 743, in _run_callback
+    ret = callback()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 767, in _discard_future_result
+    future.result()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py", line 875, in heartbeat
+    metrics=await self.get_metrics(),
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 747, in send_recv_from_rpc
+    comm = await self.pool.connect(self.addr)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 874, in connect
+    connection_args=self.connection_args,
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 227, in connect
+    _raise(error)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 204, in _raise
+    raise IOError(msg)
+OSError: Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d96422fd0>: ConnectionRefusedError: [Errno 111] Connection refused
+tornado.application - ERROR - Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOLoop object at 0x2b9d8158eb70>>, <Task finished coro=<Worker.heartbeat() done, defined at /softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py:866> exception=OSError("Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d96beae48>: ConnectionRefusedError: [Errno 111] Connection refused")>)
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 215, in connect
+    quiet_exceptions=EnvironmentError,
+tornado.util.TimeoutError: Timeout
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 743, in _run_callback
+    ret = callback()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 767, in _discard_future_result
+    future.result()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py", line 875, in heartbeat
+    metrics=await self.get_metrics(),
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 747, in send_recv_from_rpc
+    comm = await self.pool.connect(self.addr)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 874, in connect
+    connection_args=self.connection_args,
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 227, in connect
+    _raise(error)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 204, in _raise
+    raise IOError(msg)
+OSError: Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d96beae48>: ConnectionRefusedError: [Errno 111] Connection refused
+tornado.application - ERROR - Exception in callback <function Worker._register_with_scheduler.<locals>.<lambda> at 0x2b9d8fed6e18>
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 907, in _run
+    return self.callback()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py", line 857, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}),
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/batched.py", line 117, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOLoop object at 0x2b9d8158eb70>>, <Task finished coro=<Worker.heartbeat() done, defined at /softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py:866> exception=OSError("Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d964899e8>: ConnectionRefusedError: [Errno 111] Connection refused")>)
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 215, in connect
+    quiet_exceptions=EnvironmentError,
+tornado.util.TimeoutError: Timeout
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 743, in _run_callback
+    ret = callback()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 767, in _discard_future_result
+    future.result()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py", line 875, in heartbeat
+    metrics=await self.get_metrics(),
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 747, in send_recv_from_rpc
+    comm = await self.pool.connect(self.addr)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 874, in connect
+    connection_args=self.connection_args,
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 227, in connect
+    _raise(error)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 204, in _raise
+    raise IOError(msg)
+OSError: Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d964899e8>: ConnectionRefusedError: [Errno 111] Connection refused
+tornado.application - ERROR - Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOLoop object at 0x2b9d8158eb70>>, <Task finished coro=<Worker.heartbeat() done, defined at /softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py:866> exception=OSError("Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d965304a8>: ConnectionRefusedError: [Errno 111] Connection refused")>)
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 215, in connect
+    quiet_exceptions=EnvironmentError,
+tornado.util.TimeoutError: Timeout
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 743, in _run_callback
+    ret = callback()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 767, in _discard_future_result
+    future.result()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py", line 875, in heartbeat
+    metrics=await self.get_metrics(),
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 747, in send_recv_from_rpc
+    comm = await self.pool.connect(self.addr)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 874, in connect
+    connection_args=self.connection_args,
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 227, in connect
+    _raise(error)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 204, in _raise
+    raise IOError(msg)
+OSError: Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d965304a8>: ConnectionRefusedError: [Errno 111] Connection refused
+tornado.application - ERROR - Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOLoop object at 0x2b9d8158eb70>>, <Task finished coro=<Worker.heartbeat() done, defined at /softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py:866> exception=OSError("Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d970d2470>: ConnectionRefusedError: [Errno 111] Connection refused")>)
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 215, in connect
+    quiet_exceptions=EnvironmentError,
+tornado.util.TimeoutError: Timeout
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 743, in _run_callback
+    ret = callback()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 767, in _discard_future_result
+    future.result()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py", line 875, in heartbeat
+    metrics=await self.get_metrics(),
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 747, in send_recv_from_rpc
+    comm = await self.pool.connect(self.addr)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 874, in connect
+    connection_args=self.connection_args,
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 227, in connect
+    _raise(error)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 204, in _raise
+    raise IOError(msg)
+OSError: Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d970d2470>: ConnectionRefusedError: [Errno 111] Connection refused
+tornado.application - ERROR - Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOLoop object at 0x2b9d8158eb70>>, <Task finished coro=<Worker.heartbeat() done, defined at /softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py:866> exception=OSError("Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d9712a6d8>: ConnectionRefusedError: [Errno 111] Connection refused")>)
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 215, in connect
+    quiet_exceptions=EnvironmentError,
+tornado.util.TimeoutError: Timeout
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 743, in _run_callback
+    ret = callback()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 767, in _discard_future_result
+    future.result()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py", line 875, in heartbeat
+    metrics=await self.get_metrics(),
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 747, in send_recv_from_rpc
+    comm = await self.pool.connect(self.addr)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 874, in connect
+    connection_args=self.connection_args,
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 227, in connect
+    _raise(error)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 204, in _raise
+    raise IOError(msg)
+OSError: Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d9712a6d8>: ConnectionRefusedError: [Errno 111] Connection refused
+tornado.application - ERROR - Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOLoop object at 0x2b9d8158eb70>>, <Task finished coro=<Worker.heartbeat() done, defined at /softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py:866> exception=OSError("Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d974d48d0>: ConnectionRefusedError: [Errno 111] Connection refused")>)
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 215, in connect
+    quiet_exceptions=EnvironmentError,
+tornado.util.TimeoutError: Timeout
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 743, in _run_callback
+    ret = callback()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 767, in _discard_future_result
+    future.result()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py", line 875, in heartbeat
+    metrics=await self.get_metrics(),
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 747, in send_recv_from_rpc
+    comm = await self.pool.connect(self.addr)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 874, in connect
+    connection_args=self.connection_args,
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 227, in connect
+    _raise(error)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 204, in _raise
+    raise IOError(msg)
+OSError: Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d974d48d0>: ConnectionRefusedError: [Errno 111] Connection refused
+tornado.application - ERROR - Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOLoop object at 0x2b9d8158eb70>>, <Task finished coro=<Worker.heartbeat() done, defined at /softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py:866> exception=OSError("Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d96b34080>: ConnectionRefusedError: [Errno 111] Connection refused")>)
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 215, in connect
+    quiet_exceptions=EnvironmentError,
+tornado.util.TimeoutError: Timeout
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 743, in _run_callback
+    ret = callback()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 767, in _discard_future_result
+    future.result()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py", line 875, in heartbeat
+    metrics=await self.get_metrics(),
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 747, in send_recv_from_rpc
+    comm = await self.pool.connect(self.addr)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 874, in connect
+    connection_args=self.connection_args,
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 227, in connect
+    _raise(error)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 204, in _raise
+    raise IOError(msg)
+OSError: Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d96b34080>: ConnectionRefusedError: [Errno 111] Connection refused
+tornado.application - ERROR - Exception in callback <function Worker._register_with_scheduler.<locals>.<lambda> at 0x2b9d8fed6e18>
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 907, in _run
+    return self.callback()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py", line 857, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}),
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/batched.py", line 117, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOLoop object at 0x2b9d8158eb70>>, <Task finished coro=<Worker.heartbeat() done, defined at /softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py:866> exception=OSError("Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d96b34908>: ConnectionRefusedError: [Errno 111] Connection refused")>)
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 215, in connect
+    quiet_exceptions=EnvironmentError,
+tornado.util.TimeoutError: Timeout
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 743, in _run_callback
+    ret = callback()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 767, in _discard_future_result
+    future.result()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py", line 875, in heartbeat
+    metrics=await self.get_metrics(),
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 747, in send_recv_from_rpc
+    comm = await self.pool.connect(self.addr)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 874, in connect
+    connection_args=self.connection_args,
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 227, in connect
+    _raise(error)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 204, in _raise
+    raise IOError(msg)
+OSError: Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d96b34908>: ConnectionRefusedError: [Errno 111] Connection refused
+tornado.application - ERROR - Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOLoop object at 0x2b9d8158eb70>>, <Task finished coro=<Worker.heartbeat() done, defined at /softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py:866> exception=OSError("Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d96489630>: ConnectionRefusedError: [Errno 111] Connection refused")>)
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 215, in connect
+    quiet_exceptions=EnvironmentError,
+tornado.util.TimeoutError: Timeout
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 743, in _run_callback
+    ret = callback()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 767, in _discard_future_result
+    future.result()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py", line 875, in heartbeat
+    metrics=await self.get_metrics(),
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 747, in send_recv_from_rpc
+    comm = await self.pool.connect(self.addr)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 874, in connect
+    connection_args=self.connection_args,
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 227, in connect
+    _raise(error)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 204, in _raise
+    raise IOError(msg)
+OSError: Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d96489630>: ConnectionRefusedError: [Errno 111] Connection refused
+tornado.application - ERROR - Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOLoop object at 0x2b9d8158eb70>>, <Task finished coro=<Worker.heartbeat() done, defined at /softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py:866> exception=OSError("Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d96b34278>: ConnectionRefusedError: [Errno 111] Connection refused")>)
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 215, in connect
+    quiet_exceptions=EnvironmentError,
+tornado.util.TimeoutError: Timeout
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 743, in _run_callback
+    ret = callback()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 767, in _discard_future_result
+    future.result()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py", line 875, in heartbeat
+    metrics=await self.get_metrics(),
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 747, in send_recv_from_rpc
+    comm = await self.pool.connect(self.addr)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 874, in connect
+    connection_args=self.connection_args,
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 227, in connect
+    _raise(error)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 204, in _raise
+    raise IOError(msg)
+OSError: Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d96b34278>: ConnectionRefusedError: [Errno 111] Connection refused
+tornado.application - ERROR - Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOLoop object at 0x2b9d8158eb70>>, <Task finished coro=<Worker.heartbeat() done, defined at /softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py:866> exception=OSError("Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d968b9f28>: ConnectionRefusedError: [Errno 111] Connection refused")>)
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 215, in connect
+    quiet_exceptions=EnvironmentError,
+tornado.util.TimeoutError: Timeout
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 743, in _run_callback
+    ret = callback()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 767, in _discard_future_result
+    future.result()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py", line 875, in heartbeat
+    metrics=await self.get_metrics(),
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 747, in send_recv_from_rpc
+    comm = await self.pool.connect(self.addr)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 874, in connect
+    connection_args=self.connection_args,
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 227, in connect
+    _raise(error)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 204, in _raise
+    raise IOError(msg)
+OSError: Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d968b9f28>: ConnectionRefusedError: [Errno 111] Connection refused
+tornado.application - ERROR - Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOLoop object at 0x2b9d8158eb70>>, <Task finished coro=<Worker.heartbeat() done, defined at /softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py:866> exception=OSError("Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d974d4828>: ConnectionRefusedError: [Errno 111] Connection refused")>)
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 215, in connect
+    quiet_exceptions=EnvironmentError,
+tornado.util.TimeoutError: Timeout
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 743, in _run_callback
+    ret = callback()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 767, in _discard_future_result
+    future.result()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py", line 875, in heartbeat
+    metrics=await self.get_metrics(),
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 747, in send_recv_from_rpc
+    comm = await self.pool.connect(self.addr)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 874, in connect
+    connection_args=self.connection_args,
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 227, in connect
+    _raise(error)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 204, in _raise
+    raise IOError(msg)
+OSError: Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d974d4828>: ConnectionRefusedError: [Errno 111] Connection refused
+tornado.application - ERROR - Exception in callback <function Worker._register_with_scheduler.<locals>.<lambda> at 0x2b9d8fed6e18>
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 907, in _run
+    return self.callback()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py", line 857, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}),
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/batched.py", line 117, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOLoop object at 0x2b9d8158eb70>>, <Task finished coro=<Worker.heartbeat() done, defined at /softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py:866> exception=OSError("Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d9684b320>: ConnectionRefusedError: [Errno 111] Connection refused")>)
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 215, in connect
+    quiet_exceptions=EnvironmentError,
+tornado.util.TimeoutError: Timeout
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 743, in _run_callback
+    ret = callback()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/tornado/ioloop.py", line 767, in _discard_future_result
+    future.result()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/worker.py", line 875, in heartbeat
+    metrics=await self.get_metrics(),
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 747, in send_recv_from_rpc
+    comm = await self.pool.connect(self.addr)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/core.py", line 874, in connect
+    connection_args=self.connection_args,
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 227, in connect
+    _raise(error)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/comm/core.py", line 204, in _raise
+    raise IOError(msg)
+OSError: Timed out trying to connect to 'tcp://10.120.40.97:33653' after 10 s: in <distributed.comm.tcp.TCPConnector object at 0x2b9d9684b320>: ConnectionRefusedError: [Errno 111] Connection refused
+=>> PBS: job killed: walltime 1819 exceeded limit 1800
+distributed.nanny - INFO - Worker process 2542 was killed by unknown signal
+distributed.dask_worker - INFO - Exiting on signal 15
+distributed.nanny - INFO - Closing Nanny at 'tcp://10.120.40.66:34158'
+distributed.dask_worker - INFO - End worker
+Traceback (most recent call last):
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/cli/dask_worker.py", line 410, in <module>
+    go()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/cli/dask_worker.py", line 406, in go
+    main()
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/click/core.py", line 764, in __call__
+    return self.main(*args, **kwargs)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/click/core.py", line 717, in main
+    rv = self.invoke(ctx)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/click/core.py", line 956, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/click/core.py", line 555, in invoke
+    return callback(*args, **kwargs)
+  File "/softs/rh7/conda/4.5.4/envs/pangeo_full_201909/lib/python3.7/site-packages/distributed/cli/dask_worker.py", line 397, in main
+    raise TimeoutError("Timed out starting worker.") from None
+tornado.util.TimeoutError: Timed out starting worker.
